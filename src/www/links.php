@@ -15,6 +15,8 @@
 		<p><a href="http://www.visitodsherred.dk/" target="_blank">Odsherreds Turistbureau</a></p>
 		<p><a href="http://www.pejsegaardenscykler.dk/" target="_blank">Cykeludlejning - Pejseg&aring;rdens Cykler i R&oslash;rvig</a></p>
 		<p><a href="http://www.golfruten.dk" target="_blank">Golfruten.dk</a></p>
+		<p><a href="http://www.pottegården.dk" target="_blank">Pottegården - Live musik</a></p>
+
 
 		<h2>Transport og Rejseinformationer</h2>
 		<p><a href="http://rejseplanen.dk">Rejseplanen</a></p>

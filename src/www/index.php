@@ -28,8 +28,8 @@
 
 	<video id="bothwell_video" class="video-js vjs-default-skin" controls preload="auto" width="700" height="394" poster="/img/bg_bothwell_video.jpg"
 	  data-setup="{}">
-	  <source src="/media/videos/bothwell.mp4" type='video/mp4'>
-	  <source src="/media/videos/bothwell.ogv" type='video/ogg'>
+	  <source src="/media/video/bothwell.mp4" type='video/mp4'>
+	  <source src="/media/video/bothwell.ogv" type='video/ogg'>
 	</video>
 
 	<hr />

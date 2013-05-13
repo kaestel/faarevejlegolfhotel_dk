@@ -33,6 +33,9 @@
 
 	<div id="menu">
 		<div class="logo"><a href="/"><span>Fårevejle Golf Hotel</span> <span class="phone">+45 5965 4200</span></a></div>
+
+		<div class="booking_com"></div>
+
 		<ul>
 			<li class="back<?= $_SERVER["PHP_SELF"] == "/index.php" ? ' selected' : '' ?>"><a href="/">Forsiden</a></li>
 			<!--li class="separator"></li-->
