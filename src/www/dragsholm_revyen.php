@@ -1,0 +1,1 @@
+<?php header("Location: dragsholm_revyen_2013.php") ?>
