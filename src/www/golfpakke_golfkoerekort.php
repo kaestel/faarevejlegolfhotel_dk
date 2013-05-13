@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Golfpakke med golfkørekort";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<h1>Golfpakke med golfkørekort</h1>
@@ -45,4 +45,4 @@
 
 	<? //php include("snippets/golf_lane_options.html") ?>
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

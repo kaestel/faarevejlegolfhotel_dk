@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Åbent hus";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<h1>Nostalgi på første række på Fårevejle Golf Hotel</h1>
@@ -68,4 +68,4 @@
 	</div>
 
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

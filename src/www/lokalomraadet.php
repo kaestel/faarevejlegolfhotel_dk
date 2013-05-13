@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Lokalområdet";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<h1>Lokalomr&aring;det</h1>
@@ -18,4 +18,4 @@
 		<?php include("snippets/odsherred_oeerne.html") ?>
 	</div>
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Dragsholmrevyen 2013";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 
@@ -116,4 +116,4 @@
 
 
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Håndværkertilbud";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<h1>H&Aring;NDV&AElig;RKERTILBUD</h1>
@@ -45,4 +45,4 @@
 
 	<p><a href="afbestilling.php">Se afbestillingsregler</a></p>
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

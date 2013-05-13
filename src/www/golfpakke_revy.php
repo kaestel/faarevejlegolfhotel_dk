@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Revy og Golf";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<h1>Revy og Golf</h1>
@@ -35,4 +35,4 @@
 	</div>
 
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

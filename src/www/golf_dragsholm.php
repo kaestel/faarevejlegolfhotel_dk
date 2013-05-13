@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "DGC Dragsholm Golf Club";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<div class="c200">
@@ -18,4 +18,4 @@
 
 	<?php include("snippets/golf_pakker.html") ?>
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

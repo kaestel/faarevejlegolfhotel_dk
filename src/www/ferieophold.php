@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Ferieophold";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<h1>Ferieophold - F&aring;revejle Golf Hotel</h1>
@@ -44,4 +44,4 @@
 
 	<p><a href="afbestilling.php">Se afbestillingsregler</a></p>
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

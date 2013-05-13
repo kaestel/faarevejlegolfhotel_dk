@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Kontakt os";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<h1>F&aring;revejle Golf Hotel ApS</h1>
@@ -20,4 +20,4 @@
 	<h2>Kort over F&aring;revejle Kirkeby</h2>
 	<img src="/img/gx_kort.gif" alt="Kort" class="pic" />
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

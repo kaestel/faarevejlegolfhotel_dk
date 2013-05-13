@@ -1,7 +1,7 @@
 <?php
 	$body_class = "front";
 	$page_title = "Også for ikke-golfere";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<div class="box">
@@ -88,4 +88,4 @@
 		<a href="video.php">Se video ...</a></p>
 	</div>
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

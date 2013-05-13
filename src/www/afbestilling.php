@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Afbestillingsregler";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<h1>Afbestillingsregler</h1>
@@ -33,4 +33,4 @@
 
 	<p>&lt; <a href="javascript:history.back();">Tilbage</a></p>
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

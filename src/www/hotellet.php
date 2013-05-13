@@ -1,6 +1,6 @@
 <?php 
 	$page_title = "Hotellet";
-	include("../php/shell_header.php");
+	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
 	<div class="c200">
@@ -40,4 +40,4 @@
 		<img src="img/pics/pi_indgang.jpg" alt="Indgangen" class="pic" />
 	</div>
 
-<?php include("../php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>
