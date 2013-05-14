@@ -14,7 +14,9 @@ body.front {margin: 0px; background-color: white; background-image: none;}
 #menu .assoc {display: none;}
 
 #menu {width: auto; float: none; overflow: hidden; position: relative;}
-#menu .logo {background-position: center top; width: auto;}
+#menu .logo {background-position: center top; width: auto;
+	padding-bottom: 50px;
+}
 #menu .logo a {padding: 155px 0 0; text-decoration: none; text-align: center; height: auto;}
 #menu .logo span {font-size: 20px; font-weight: bold; display: block;}
 
@@ -27,6 +29,9 @@ body.front {margin: 0px; background-color: white; background-image: none;}
 
 #menu li.nomobile {display: none;}
 #footer a {display: block;}
+
+#bothwell_video {display: none;}
+#page .booking_com {position: absolute; top: 240px; left: 50%; margin-left: -85px;}
 
 #content {width: auto; float: none; padding: 15px;}
 

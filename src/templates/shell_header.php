@@ -34,8 +34,6 @@
 	<div id="menu">
 		<div class="logo"><a href="/"><span>Fårevejle Golf Hotel</span> <span class="phone">+45 5965 4200</span></a></div>
 
-		<div class="booking_com"></div>
-
 		<ul>
 			<li class="back<?= $_SERVER["PHP_SELF"] == "/index.php" ? ' selected' : '' ?>"><a href="/">Forsiden</a></li>
 			<!--li class="separator"></li-->
@@ -71,4 +69,8 @@
 		</div>
 	</div>
 	
+	<div class="booking_com">
+		<a href="http://www.booking.com/hotel/dk/farevejle-golf.html?aid=330843;lang=da"><img src="//aff.bstatic.com/images/affiliate/330843/booknow_da.gif" /></a>
+	</div>
+
 	<div id="content">
