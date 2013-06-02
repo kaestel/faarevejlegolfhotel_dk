@@ -87,12 +87,8 @@
 		<td colspan="5">Udregnes efter Deres &oslash;nsker</td>
 	</tr>
 	<tr>
-		<td class="b">Internet</td>
-		<td colspan="5">Gratis (hvis du selv medbringer kabel)</td>
-	</tr>
-	<tr class="odd">
-		<td class="b">Internet kabel</td>
-		<td colspan="5">50,00 kr.</td>
+		<td class="b">Tr&aring;dl&oslash;st internet</td>
+		<td colspan="5">Gratis</td>
 	</tr>
 	</table>
 

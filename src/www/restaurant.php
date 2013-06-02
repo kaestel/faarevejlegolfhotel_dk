@@ -11,8 +11,8 @@
 
 		<h3>Husk bestilling er n&oslash;dvendig.</h3>
 
-		<br />
-		<p><span class="news">BEMÆRK:</span> Fra 23.12 - 1.1. 2012 (begge dage incl.) er der åbent for morgenmad, men aftenkøkken er lukket.</p>
+		<!--br />
+		<p><span class="news">BEMÆRK:</span> Fra 23.12 - 1.1. 2012 (begge dage incl.) er der åbent for morgenmad, men aftenkøkken er lukket.</p-->
 
 		<hr />
 
@@ -73,9 +73,9 @@
 		<img src="img/pics/pi_selskabslokaler_1.jpg" alt="Restaurant" class="pic" />
 
 		<h2>Vi bruger lokale r&aring;varer fra Lammefjorden</h2>
-		<p>Kartofler fra Stubberupholm &Oslash;ko Aps v/Boje Skytte.</p>
+		<!--p>Kartofler fra Stubberupholm &Oslash;ko Aps v/Boje Skytte.</p-->
+		<p>Gr&oslash;ntsager fra bl.a. Lammefjordens Spisekammer v/Karin og John Nielsen.</p>
 		<p>&AElig;blemost fra Kjeld Stype Petersen, H&oslash;rve.</p>
-		<p>&Oslash;vrige gr&oslash;ntsager fra bl.a. Lammefjordens Spisekammer v/Karin og John og Anders Slot, S&oslash;ren Wiuff, Gislinge.</p>
 
 		<br />
 

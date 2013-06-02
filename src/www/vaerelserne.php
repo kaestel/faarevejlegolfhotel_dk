@@ -11,7 +11,7 @@
 			<p>Alle v&aelig;relser er endvidere udstyret med stort arbejdsbord, hvilestole og el-kedel.</p>
 			<p>1 suite med jacuzzi og andre l&aelig;kkerier.</p>
 			<p>Mulighed for ryger/ikke-ryger v&aelig;relse.</p>
-			<p>Gratis internet p&aring; F&aring;revejle Golf Hotel, men husk at medbringe dit eget kabel.</p>
+			<p>Gratis tr&aring;dl&oslash;st internet.</p>
 			<p><a href="video.php">Se video om F&aring;revejle Golf Hotel</a></p>
 		</div>
 		<div class="c200">

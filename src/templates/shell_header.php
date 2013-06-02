@@ -44,6 +44,7 @@
 					<li<?= $_SERVER["PHP_SELF"] == "/moedelokaler.php" ? ' class="selected"' : '' ?>><a href="moedelokaler.php">Konference</a></li>
 					<li<?= $_SERVER["PHP_SELF"] == "/selskabslokaler.php" ? ' class="selected"' : '' ?>><a href="selskabslokaler.php">Selskabslokaler</a></li>
 					<li<?= $_SERVER["PHP_SELF"] == "/restaurant.php" ? ' class="selected"' : '' ?>><a href="restaurant.php">Restaurant</a></li>
+					<li<?= $_SERVER["PHP_SELF"] == "/restaurant_bothwell.php" ? ' class="selected"' : '' ?>><a href="restaurant_bothwell.php">Restaurant Bothwell</a></li>
 				</ul>
 			</li>
 			<li<?= $_SERVER["PHP_SELF"] == "/arrangementer.php" ? ' class="selected"' : '' ?>><a href="arrangementer.php">Arrangementer</a></li>
