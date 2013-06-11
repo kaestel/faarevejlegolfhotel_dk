@@ -7,7 +7,7 @@
 		<h1>Links</h1>
 
 		<p><a href="http://www.dragsholmgolfclub.dk" target="_blank">DGC Dragsholm Golf Club</a></p>
-		<p><a href="http://www.crkgolf.dk" target="_blank">CRK Golf</a></p>
+		<!--p><a href="http://www.crkgolf.dk" target="_blank">CRK Golf</a></p-->
 		<p><a href="http://www.faarevejlegaardindoorgolfcenter.dk" target="_blank">Faarevejlegaard Indoor Golf Center</a></p>
 		<p><a href="http://www.odsherredgolf.dk" target="_blank">Odsherred Golfklub</a></p>
 		<p><a href="http://www.holbakgolfklub.dk" target="_blank">Holb&aelig;k Golfklub</a></p>
