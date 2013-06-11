@@ -52,12 +52,12 @@
 			<li<?= preg_match("/golf/", $_SERVER["PHP_SELF"]) ? ' class="selected"' : '' ?>><a href="golf.php">Golftilbud</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/haandvaerkere.php" ? ' class="selected"' : '' ?>><a href="haandvaerkere.php">H&aring;ndv&aelig;rkertilbud</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/priser.php" ? ' class="selected"' : '' ?>><a href="priser.php">Priser</a></li>
+			<li<?= $_SERVER["PHP_SELF"] == "/sponsorer.php" ? ' class="selected"' : '' ?>><a href="sponsorer.php">Sponsorer</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen.php" ? ' class="selected"' : '' ?>>
 				<a href="dragsholm_revyen.php">Dragsholmrevyen</a>
 				<ul>
 					<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen_2013.php" ? ' class="selected"' : '' ?>><a href="dragsholm_revyen_2013.php">Dragsholmrevyen 2013</a></li>
 					<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen_2012.php" ? ' class="selected"' : '' ?>><a href="dragsholm_revyen_2012.php">Dragsholmrevyen 2012</a></li>
-					<li<?= $_SERVER["PHP_SELF"] == "/sponsorer.php" ? ' class="selected"' : '' ?>><a href="sponsorer.php">Sponsorer</a></li>
 				</ul>
 			</li>
 			<li<?= $_SERVER["PHP_SELF"] == "/lokalomraadet.php" ? ' class="selected"' : '' ?> class="nomobile"><a href="lokalomraadet.php">Lokalomr&aring;det</a></li>
