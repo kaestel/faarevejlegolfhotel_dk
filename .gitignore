@@ -1,1 +1,2 @@
-library
+src/library/*
+.DS_Store

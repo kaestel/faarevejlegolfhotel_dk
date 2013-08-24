@@ -3,10 +3,25 @@
 	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
 ?>
 
-
 	<h1>Dragsholmrevyen 2013 på Fårevejle Golf Hotel</h1>
-	
+
 	<p>
+		Endnu engang lykkedes det Dragsholmrevyen at få to priser ved den årlige
+		uddeling på Revyernes Revy. Mette K. Madsen fik prisen som Årets Revykunstner
+		(Årets Dirch) og Bente Eskesen prisen som Årets Æreskunstner. Helt fantastisk.
+		Et stort tillykke fra Fårevejle Golf Hotel.
+	</p>
+
+	<p>
+		Tak til Dragsholmrevyen for en fantastisk revy og et fantastisk samarbejde. Tak til de mange gæster
+		som valgte at spise revymenuerne før forestillingerne. Endvidere tak til et fantastisk personale, der har
+		gjort det hele muligt.
+	</p>
+ 
+	<p>Marianne Kæstel Nielsen<br /><span class="title">Direktør, Fårevejle Golf Hotel</span></p> 
+	<br /><br />
+	
+	<!--p>
 		Fårevejle Golf Hotel - har igen den forrygende, fantastiske ære  at sige:
 		VELKOMMEN TIL DRAGSHOLMREVYEN 2013.
 	</p>
@@ -110,7 +125,7 @@
 	</p>
 	<p>
 		Gavekort til Small Danish Hotels (Dansk kroferie) kan benyttes - blot skal det oplyses ved bestilling.
-	</p>
+	</p-->
 
 	<p>Tag på opdagelse i Revyens historie på <a href="http://dragsholmrevyen.dk" target="_blank">http://dragsholmrevyen.dk</a>.</p>
 

@@ -52,7 +52,6 @@
 			<li<?= preg_match("/golf/", $_SERVER["PHP_SELF"]) ? ' class="selected"' : '' ?>><a href="golf.php">Golftilbud</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/haandvaerkere.php" ? ' class="selected"' : '' ?>><a href="haandvaerkere.php">H&aring;ndv&aelig;rkertilbud</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/priser.php" ? ' class="selected"' : '' ?>><a href="priser.php">Priser</a></li>
-			<li<?= $_SERVER["PHP_SELF"] == "/sponsorer.php" ? ' class="selected"' : '' ?>><a href="sponsorer.php">Sponsorer</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen.php" ? ' class="selected"' : '' ?>>
 				<a href="dragsholm_revyen.php">Dragsholmrevyen</a>
 				<ul>
@@ -67,7 +66,7 @@
 
 		<div class="assoc">
 			<a href="http://www.horesta.dk" target="_blank"><img src="img/gx_horesta.png" alt="Horesta" /></a>
-			<a href="http://www.krohotel.dk/dansk+kroferie/fårevejle+golf+hotel"><img src="img/gx_dkkro.png" alt="Dansk Kroferie" /></a>
+			<a href="http://www.smalldanishhotels.dk/"><img src="img/gx_smalldanishhotels.png" alt="Small Danish Hotels" /></a>
 		</div>
 	</div>
 	

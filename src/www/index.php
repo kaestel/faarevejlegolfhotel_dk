@@ -20,10 +20,13 @@
 	<hr /-->
 
 	<div class="box">
-		<h3><span class="news">NYHED</span> Dragsholmrevyen 2013 på Fårevejle Golf Hotel</h3>
-		<p>Fårevejle Golf Hotel - har igen den forrygende, fantastiske ære  at sige:
-		VELKOMMEN TIL DRAGSHOLMREVYEN 2013<br />
-		<a href="dragsholm_revyen_2013.php">L&aelig;s mere ...</a></p>
+		<h3><span class="news">NYHED</span> Dragsholmrevyen 2013</h3>
+		<p>
+			Endnu engang lykkedes det Dragsholmrevyen at få to priser ved den årlige
+			uddeling på Revyernes Revy. Mette K. Madsen fik prisen som Årets Revykunstner
+			(Årets Dirch) og Bente Eskesen prisen som Årets Æreskunstner. Helt fantastisk.
+			Et stort tillykke fra Fårevejle Golf Hotel.
+		</p>
 	</div>
 
 	<hr />
