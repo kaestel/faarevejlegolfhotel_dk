@@ -14,7 +14,7 @@
 	<div class="box">
 		<h3><span class="news">NYHED</span> Julefrokost 6. december 2013</h3>
 		<p>Formidabel julebuffet, med musik og dans.<br />
-		<a href="golfpakke_golfkoerekort.php">L&aelig;s mere ...</a></p>
+		<a href="arrangementer.php">L&aelig;s mere ...</a></p>
 	</div>
 
 	<hr />
