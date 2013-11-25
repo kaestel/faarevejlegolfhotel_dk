@@ -4,69 +4,27 @@
 ?>
 
 	<div class="c200">
-		<h1>Restauranten</h1>
-		<br />
+		<h1>Hotellets Restaurant</h1>
 
-		<p>F&aring;revejle Golf Hotel har sin egen restaurant, som er &aring;ben hver dag fra kl. 18.00 - 21.00 (s&oslash;ndag lukket).</p>
+		<p>Vi har i vinterhalvåret besluttet at lukke aften Restauranten, undtagen for forudbestillinger - dvs efter behov.</p>
 
-		<h3>Husk bestilling er n&oslash;dvendig.</h3>
+		<p>Miniferie, golfophold, weekendophold, fester, kurser/konferencer, er ikke berørt, ligesom morgenmad og madpakker altid vil blive serveret.</p>
 
-		<!--br />
-		<p><span class="news">BEMÆRK:</span> Fra 23.12 - 1.1. 2012 (begge dage incl.) er der åbent for morgenmad, men aftenkøkken er lukket.</p-->
+		<p>
+			De dage, hvor der iøvrigt er arrangementer vil vi også rigtig gerne servere mad for dig, men der skal bestilles forud. 
+			Ring og hør om køkkenet har åbent.
+		</p>
 
-		<hr />
+		<p>
+			Det vi som hovedregel kan tilbyde når vi har åbent er:</p>
 
-		<h2>Dagens Ret man-ons.</h2>
-		
-		<h3>Pris kr.  108,- dagens ret</h3>
+		<h3>Hovedret, kr. 128,-</h3>
+		<h3>Forret og hovedret, kr. 178,-</h3>
 
-		<br />
+		<p>Dessert kan tilkøbes.</p>
 
-		<h3>Mandag: Ring og sp&oslash;rg.</h3>
-		<h3>Tirsdag: Altid fisk.</h3>
-		<h3>Onsdag: Altid stegt fl&aelig;sk og persillesovs.</h3>
-
-		<br />
-		<hr />
-		<br />
-
-		<h2>I øvrigt kan vi tilbyde et lille a la carte kort:</h2>
-
-		<ul>
-			<li>2 forretter</li>
-			<li>2 hovedretter</li>
-			<li>2 desserter</li>
-		</ul>
-
-		<p>Eller vælg 2 retter for kr. 189,- - Kokkens valg</p>
-		<p>Bestilling: +45 59 65 42 00</p>
-
-		<!--h2>Vi tilbyder hver m&aring;ned en ny menu.</h2>
-
-		<h3>Pris kr. 249,- for alle 3 retter</h3>
-		<h3>Pris kr. 179,- for 2 retter</h3>
-
-		<br />
-
-		<h2>Menu 9/3 - 22/3</h2>
-
-		<h3>Forret</h3>
-
-		<ul class="menu">
-			<li>Capaccio af oksefilet, citron,løg, capers, soltørret tomat og rukala salat, brød og smør</li>
-		</ul>
-
-		<h3>Hovedret</h3>
-
-		<ul class="menu">
-			<li>Unghanebryst stegt m. løvstikkesmør, østershatte, dagens kartoffel og sauce supreme</li>
-		</ul>
-
-		<h3>Dessert</h3>
-
-		<ul class="menu">
-			<li>Chokolade ganache m. blommegranité</li>
-		</ul-->
+		<p>Ring +45 5965 4200 for mere information.</p>
+		<h3>Vi glæder os til at servere for dig.</h3>
 	</div>
 
 	<div class="c200">

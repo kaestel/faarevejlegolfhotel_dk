@@ -43,13 +43,18 @@
 					<li<?= $_SERVER["PHP_SELF"] == "/vaerelserne.php" ? ' class="selected"' : '' ?> class="nomobile"><a href="vaerelserne.php">V&aelig;relserne</a></li>
 					<li<?= $_SERVER["PHP_SELF"] == "/moedelokaler.php" ? ' class="selected"' : '' ?>><a href="moedelokaler.php">Konference</a></li>
 					<li<?= $_SERVER["PHP_SELF"] == "/selskabslokaler.php" ? ' class="selected"' : '' ?>><a href="selskabslokaler.php">Selskabslokaler</a></li>
-					<li<?= $_SERVER["PHP_SELF"] == "/restaurant.php" ? ' class="selected"' : '' ?>><a href="restaurant.php">Restaurant</a></li>
-					<li<?= $_SERVER["PHP_SELF"] == "/restaurant_bothwell.php" ? ' class="selected"' : '' ?>><a href="restaurant_bothwell.php">Restaurant Bothwell</a></li>
+					<li<?= $_SERVER["PHP_SELF"] == "/restaurant.php" ? ' class="selected"' : '' ?>><a href="restaurant.php">Hotellets Restaurant</a></li>
 				</ul>
 			</li>
 			<li<?= $_SERVER["PHP_SELF"] == "/arrangementer.php" ? ' class="selected"' : '' ?>><a href="arrangementer.php">Arrangementer</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/ferieophold.php" ? ' class="selected"' : '' ?>><a href="ferieophold.php">Ferieophold</a></li>
-			<li<?= preg_match("/golf/", $_SERVER["PHP_SELF"]) ? ' class="selected"' : '' ?>><a href="golf.php">Golftilbud</a></li>
+			<li<?= preg_match("/golf/", $_SERVER["PHP_SELF"]) ? ' class="selected"' : '' ?>>
+				<a href="golf.php">Golftilbud</a>
+				<ul>
+					<li<?= preg_match("/golf/", $_SERVER["PHP_SELF"]) ? ' class="selected"' : '' ?>><a href="golf.php">Golfpakker</a></li>
+					<li<?= $_SERVER["PHP_SELF"] == "/restaurant_bothwell.php" ? ' class="selected"' : '' ?>><a href="restaurant_bothwell.php">Café og Restaurant Bothwell</a></li>
+				</ul>
+			</li>
 			<li<?= $_SERVER["PHP_SELF"] == "/haandvaerkere.php" ? ' class="selected"' : '' ?>><a href="haandvaerkere.php">H&aring;ndv&aelig;rkertilbud</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/priser.php" ? ' class="selected"' : '' ?>><a href="priser.php">Priser</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen.php" ? ' class="selected"' : '' ?>>
