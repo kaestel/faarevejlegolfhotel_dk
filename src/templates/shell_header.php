@@ -50,16 +50,17 @@
 			<li<?= $_SERVER["PHP_SELF"] == "/ferieophold.php" ? ' class="selected"' : '' ?>><a href="ferieophold.php">Ferieophold</a></li>
 			<li<?= preg_match("/golf/", $_SERVER["PHP_SELF"]) ? ' class="selected"' : '' ?>>
 				<a href="golf.php">Golftilbud</a>
-				<ul>
+				<!--ul>
 					<li<?= preg_match("/golf/", $_SERVER["PHP_SELF"]) ? ' class="selected"' : '' ?>><a href="golf.php">Golfpakker</a></li>
 					<li<?= $_SERVER["PHP_SELF"] == "/restaurant_bothwell.php" ? ' class="selected"' : '' ?>><a href="restaurant_bothwell.php">Café og Restaurant Bothwell</a></li>
-				</ul>
+				</ul-->
 			</li>
 			<li<?= $_SERVER["PHP_SELF"] == "/haandvaerkere.php" ? ' class="selected"' : '' ?>><a href="haandvaerkere.php">H&aring;ndv&aelig;rkertilbud</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/priser.php" ? ' class="selected"' : '' ?>><a href="priser.php">Priser</a></li>
 			<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen.php" ? ' class="selected"' : '' ?>>
 				<a href="dragsholm_revyen.php">Dragsholmrevyen</a>
 				<ul>
+					<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen_2014.php" ? ' class="selected"' : '' ?>><a href="dragsholm_revyen_2014.php">Dragsholmrevyen 2014</a></li>
 					<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen_2013.php" ? ' class="selected"' : '' ?>><a href="dragsholm_revyen_2013.php">Dragsholmrevyen 2013</a></li>
 					<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen_2012.php" ? ' class="selected"' : '' ?>><a href="dragsholm_revyen_2012.php">Dragsholmrevyen 2012</a></li>
 				</ul>
@@ -75,8 +76,8 @@
 		</div>
 	</div>
 	
-	<div class="booking_com">
+	<!--div class="booking_com">
 		<a href="http://www.booking.com/hotel/dk/farevejle-golf.html?aid=330843;lang=da"><img src="//aff.bstatic.com/images/affiliate/330843/booknow_da.gif" /></a>
-	</div>
+	</div-->
 
 	<div id="content">

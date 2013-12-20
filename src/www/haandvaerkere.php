@@ -36,9 +36,8 @@
 	<h3>Ring eller mail for aftale.</h3>
 	
 	<p>
-		F&aring;revejle Golf Hotel er et nyetableret hotel, der ligger centralt i Nordvest Sj&aelig;lland og midt i Odsherred.<br />
+		F&aring;revejle Golf Hotel ligger centralt i Nordvest Sj&aelig;lland og midt i Odsherred.<br />
 		22 Store, lyse og velindrettede v&aelig;relser alle med bad, toilet, tv og hurtig internetadgang.<br />
-		<strong>Venligst bestil i s&aring; god tid som muligt.</strong>
 	</p>
 
 	<hr />

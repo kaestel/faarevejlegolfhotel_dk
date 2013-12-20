@@ -9,7 +9,7 @@
 
 	<hr />
 
-	<h3>Julefrokost 6. december 2013</h3>
+	<!--h3>Julefrokost 6. december 2013</h3>
 	<p>Fredag den 6. december 2013, kl 18.30 - 01.00 med musik og dans. Henry O'Connor sørger for de musikalske indslag.
 
 	<p>Julefrokost med vores formidable julebuffet kr. 350,- pr. person.</p>
@@ -19,6 +19,8 @@
 
 	<hr />
 
-	<p><a href="afbestilling.php">Se afbestillingsregler</a></p>
+	<p><a href="afbestilling.php">Se afbestillingsregler</a></p-->
+
+	<h3>Der er pt ingen planlagte arrangementer.</h3>
 
 <?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

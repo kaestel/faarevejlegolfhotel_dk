@@ -11,16 +11,16 @@
 
 	<hr />
 
-	<div class="box">
+	<!--div class="box">
 		<h3><span class="news">NYHED</span> Julefrokost 6. december 2013</h3>
 		<p>Formidabel julebuffet, med musik og dans.<br />
 		<a href="arrangementer.php">L&aelig;s mere ...</a></p>
 	</div>
 
-	<hr />
+	<hr /-->
 
 	<div class="box">
-		<h3><span class="news">NYHED</span> Dragsholmrevyen 2013</h3>
+		<h3><!--span class="news">NYHED</span--> Dragsholmrevyen 2013</h3>
 		<p>
 			Endnu engang lykkedes det Dragsholmrevyen at få to priser ved den årlige
 			uddeling på Revyernes Revy. Mette K. Madsen fik prisen som Årets Revykunstner
