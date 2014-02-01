@@ -5,7 +5,7 @@
 
 	<div class="c200">
 		<h1>Konference</h1>
-		<p>Nye, lyse og velinrettede m&oslash;delokaler med hurtig internetadgang, velegnet til konferencer, kurser og andre m&oslash;der.</p>
+		<p>Lyse og velinrettede m&oslash;delokaler med hurtig internetadgang, velegnet til konferencer, kurser og andre m&oslash;der.</p>
 		<p><a href="video.php">Se video om F&aring;revejle Golf Hotel</a></p>
 
 		<h1>Konference tilbud</h1>
@@ -47,7 +47,10 @@
 			Flot morgenbuffet<br />
 			Isvand, lokale, standard AV-udstyr
 		</p>
-		<h2>Pris pr. person: kr. 1.295,00</h2>
+		<h2>Pris pr. person: kr. 1.195,00</h2>
+		<p class="note">
+			Ved minimum 10 deltagere. For 9 deltagere og derunder - kontakt os for tilbud.
+		</p>
 
 	</div>
 	<div class="c200">
@@ -60,7 +63,7 @@
 
 	<div class="c400">
 		<p>Har De behov for 1-4 grupperum kan dette arrangeres mod betaling.</p>
-		<p>Standard AV-udstyr: Whiteboard, flip-over, overheadprojektor, projektor og l&aelig;rred.</p>
+		<p>Standard AV-udstyr: Whiteboard, flip-over, projektor og l&aelig;rred.</p>
 	</div>
 
 <?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

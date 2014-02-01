@@ -5,7 +5,7 @@
 
 	<h1>PRISLISTE</h1>
 	<p>
-		17 store nye velindrettede v&aelig;relser, 4 familiev&aelig;relser samt 1 suite.<br />
+		17 store velindrettede v&aelig;relser, 4 familiev&aelig;relser samt 1 suite.<br />
 		Alle med bad, toilet, tv og hurtig internetadgang.
 	</p>
 
