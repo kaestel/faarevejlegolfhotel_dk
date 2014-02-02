@@ -19,21 +19,21 @@
 	</tr>
 	<tr class="odd">
 		<td class="b">Dobbeltv&aelig;relse (2 personer)</td>
-		<td>895,00</td>
+		<td>765,00</td>
 		<td>kr.</td>
 		<td>pr.</td>
 		<td>d&oslash;gn</td>
 	</tr>
 	<tr>
 		<td class="b">Familiev&aelig;relse (2 personer)</td>
-		<td>1095,00</td>
+		<td>965,00</td>
 		<td>kr.</td>
 		<td>pr.</td>
 		<td>d&oslash;gn</td>
 	</tr>
 	<tr class="odd">
 		<td class="b">Suite (2 personer) m. jacuzzi og andre l&aelig;kkerier</td>
-		<td>1.545,00</td>
+		<td>1.345,00</td>
 		<td>kr.</td>
 		<td>pr.</td>
 		<td>d&oslash;gn</td>
