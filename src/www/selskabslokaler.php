@@ -6,7 +6,7 @@
 	<div class="c">
 		<div class="c200">
 			<h1>Selskabslokaler</h1>
-			<p>Lyst og stort festlokale, med garderobe og toiletfaciliteter.</p>
+			<p>Lyst, stort festlokale og restauranten med det specielle gulvtæppe.</p>
 			<p>Begge festlokaler er velegnet til bryllup, konfirmationer, familie- og firmafester m.m.</p>
 			<p>Ring for aftale af tid for et uforpligtende m&oslash;de, hvor vi sammen ser p&aring; rammerne for Deres arrangement.</p>
 			<p>Vi tilf&oslash;rer vores erfaring til Deres &oslash;nsker og behov.</p>
