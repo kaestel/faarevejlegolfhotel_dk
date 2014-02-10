@@ -1,4 +1,4 @@
-<div class="scene rooms i:hotel">
+<div class="scene rooms i:rooms">
 
 	<h1>V&aelig;relserne</h1>
 

@@ -1,38 +1,10 @@
 #footer {position: fixed; bottom: 0; left: 50%; margin-left: -500px; width: 500px;}
 
-#footer .vcard {width: 500px;
-
-	/*
-	background: #987654;
-	*/
-
-	background: #409300;
-
-/*	width: 1000px; margin: 0 auto;*/
-
-}
+#footer .vcard {width: 500px; background: #409300;}
 #footer .vcard div.name {display: none;}
 
-#footer .vcard div.email {display: inline-block; vertical-align: top;
-	padding: 10px 0;
-	color: #ffffff; font-size: 13px;
-}
-
-#footer .vcard div.telephone {display: inline-block; vertical-align: top;
-	padding: 10px 0 10px 20px;
-	color: #ffffff; font-size: 13px;
-	
-}
-#footer .vcard a:hover {
-	text-decoration: underline;
-	
-}
+#footer .vcard div.email {display: inline-block; vertical-align: top; padding: 10px 0; color: #ffffff; font-size: 13px;}
+#footer .vcard div.telephone {display: inline-block; vertical-align: top; padding: 10px 0 10px 20px; color: #ffffff; font-size: 13px;}
+#footer .vcard a:hover {text-decoration: underline;}
 #footer .vcard div.telephone:after {content: "\00a0/";}
-
-#footer .associations {display: none;
-
-	/*
-	position: absolute; top: 0; right: 0;
-	width: 20px; height: 20px; background: red;
-	*/
-}
+#footer .associations {display: none;}

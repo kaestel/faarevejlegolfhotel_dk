@@ -29,8 +29,8 @@ input, textarea {outline: none;}
 
 
 #page {position: relative; width: 1000px;
-	background: #409300;
-}
+/*	 background: #409300;*/
+ }
 
 a, span {font-size: inherit; font-family: inherit; color: inherit; text-transform: inherit; font-weight: inherit;}
 
@@ -60,6 +60,6 @@ dt {display: inline-block; vertical-align: top; text-transform: uppercase; color
 
 
 /* PHOTO COLUMN */
-#page ul.photos {width: 480px; position: absolute; right: 20px; top: 0; padding: 0;}
+#page ul.photos {width: 480px; position: absolute; right: 5px; top: 0; padding: 0 15px 0 0; background: #409300;}
 #page ul.photos .photo {height: 270px; display: block;}
 

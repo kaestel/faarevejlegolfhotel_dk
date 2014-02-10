@@ -1,70 +1,34 @@
+#navigation {z-index: 890; position: relative; width: 500px;}
+#navigation ul {position: relative; background: #d9e9cc; border-bottom: 1px solid #409300; padding: 0 0 0 15px;}
+#navigation ul li {display: inline-block; vertical-align: top; font-size: 14px; height: 34px;}
+#navigation ul li a {display: block; padding: 10px 15px; color: #409300;}
 
-#navigation {z-index: 890; position: relative; width: 500px;
+#navigation ul li a:hover {color: #ffffff; background: #409300;}
 
-	/*height: 50px; */
-}
+#navigation ul li ul {display: none; width: 485px; background: #ffffff;}
+#navigation ul li ul li {}
 
-#navigation ul {
-	/*
-	background: #eae4dd;
-	border-bottom: 1px solid #987654;
-	*/
-	position: relative;
-	background: #d9e9cc;
-	border-bottom: 1px solid #409300;
-	padding: 0 0 0 15px;
-}
-#navigation ul li {display: inline-block; vertical-align: top; font-size: 14px; 
-	
-	/*position: relative;*/
-	 height: 34px;
 
-/*	border-right: 1px solid #cbbaa9;*/
-}
-#navigation ul li a {display: block; 
-	padding: 10px 15px; 
-	
-	/*
-	color: #987654;
-	*/
-	color: #409300;
-}
-
-#navigation ul li a:hover {
-	color: #ffffff;
-
-	/*
-	background: #987654; 
-	*/
-
-	background: #409300; 
-	
-}
-
-#navigation ul li ul {display: none; width: 485px; 
-	background: #ffffff;
-/*	background: #409300; */
-}
-#navigation ul li ul li {
-	
-}
 
 
 .hotel #navigation .hotel > a {color: #ffffff; background: #409300;}
 .hotel #navigation .hotel ul {display: block; position: absolute; left: 0; top: 35px;}
 .hotel #navigation {height: 69px; border-bottom: 1px solid #409300;}
-.rooms #navigation .rooms > a {background: #d9e9cc;}
-.parties #navigation .parties > a {background: #d9e9cc;}
-.conference #navigation .conference > a {background: #d9e9cc;}
-.restaurant #navigation .restaurant > a {background: #d9e9cc;}
 
+.rooms #navigation .rooms > a,
+.parties #navigation .parties > a,
+.conference #navigation .conference > a,
+.restaurant #navigation .restaurant > a {background: #d9e9cc; color: #409300;}
 
 
 .golf #navigation .golf > a {color: #ffffff; background: #409300;}
-.events #navigation .events > a {color: #ffffff; background: #409300;}
-.prices #navigation .prices > a {color: #ffffff; background: #409300;}
-
-/*
 .golf #navigation .golf ul {display: block; position: absolute; left: 0; top: 35px;}
 .golf #navigation {height: 69px; border-bottom: 1px solid #409300;}
-*/
+
+.lanes #navigation .lanes > a,
+.golfoffers #navigation li .golfoffers > a {background: #d9e9cc; color: #409300;}
+
+
+.offers #navigation .offers > a {color: #ffffff; background: #409300;}
+.prices #navigation .prices > a {color: #ffffff; background: #409300;}
+.contact #navigation .contact > a {color: #ffffff; background: #409300;}

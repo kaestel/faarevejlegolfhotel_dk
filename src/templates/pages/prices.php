@@ -57,8 +57,10 @@
 	</tr>
 	</table>
 
+
 	<hr />
-	
+
+
 	<table class="prices notopmargin">
 	<tr class="odd">
 		<td class="item">Konference og m&oslash;der (max 120 personer)</td>
@@ -80,7 +82,9 @@
 
 	<p class="note">Alle priser er inkl. moms.</p>
 
+
 	<hr />
+
 
 	<p>
 		<strong>Check-in/ankomst</strong>: Fra kl. 14.00<br />

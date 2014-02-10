@@ -25,19 +25,25 @@
 		I sommerhalvåret tilbyder vi:
 	</p>
 
-	<hr />
+
+	<hr class="dashed" />
+
 
 	<h3>Hovedret</h3>
 	<p>Eksempelvis: TODO: kom med eksempel</p>
 	<p class="price">Kun kr. 128,-</p>
 
-	<hr />
+
+	<hr class="dashed" />
+
 
 	<h3>Forret og hovedret</h3>
 	<p>Eksempelvis: TODO: kom med eksempel</p>
 	<p class="price">Kun kr. 178,-</p>
 
+
 	<hr />
+
 
 	<p>Dessert kan altid tilkøbes.</p>
 

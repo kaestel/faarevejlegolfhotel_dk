@@ -1,4 +1,5 @@
 <div class="scene conference i:conference">
+
 	<h1>Konference</h1>
 	<p>
 		Planlæg jeres næste konference på Fårevejle Golf Hotel og kombiner jeres
@@ -12,7 +13,9 @@
 		Standard AV-udstyr: Whiteboard, flip-over, projektor og l&aelig;rred.
 	</p>
 
+
 	<hr />
+
 
 	<h2>Konference tilbud</h2>
 
@@ -25,7 +28,9 @@
 	</p>
 	<p class="price">Pris pr. person kr. 395,00</p>
 
+
 	<hr />
+
 
 	<h3>Hel dag: 09.00 - 21.00</h3>
 	<p>
@@ -38,7 +43,9 @@
 	</p>
 	<p class="price">Pris pr. person: kr. 695,00</p>
 
+
 	<hr />
+
 
 	<h3>Kursusd&oslash;gn: Inkl. overnatning</h3>
 	<p>

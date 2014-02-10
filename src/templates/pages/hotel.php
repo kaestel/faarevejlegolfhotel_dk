@@ -34,14 +34,18 @@
 		os til at byde dig velkommen.
 	</p>
 
+
 	<hr />
+
 
 	<p>
 		<strong>Check-in/ankomst</strong>: Fra kl. 14.00<br />
 		<strong>Check-out/afrejse</strong>: Senest kl. 10.30
 	</p>
 
+
 	<hr />
+
 
 	<p><a href="/betingelser">Se afbestillingsregler</a></p>
 

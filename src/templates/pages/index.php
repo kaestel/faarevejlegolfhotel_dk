@@ -3,7 +3,7 @@
 $action = $this->actions();
 
 $IC = new Item();
-$itemtype = "event";
+$itemtype = "news";
 
 
 $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1));

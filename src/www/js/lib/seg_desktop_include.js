@@ -5,4 +5,4 @@ document.write('<script type="text/javascript" src="/js/lib/desktop/i-front-desk
 
 
 document.write('<script type="text/javascript" src="/js/lib/ga.js"></script>');
-document.write('<script type="text/javascript" src="/js/jes/src/u-googleanalytics.js"></script>');
+document.write('<script type="text/javascript" src="/js/manipulator/src/u-googleanalytics.js"></script>');

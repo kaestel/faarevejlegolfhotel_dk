@@ -1,0 +1,140 @@
+
+/*seg_tablet_include.css*/
+
+/*s-page-desktop.css*/
+* {font-family: "OpenSans", Verdana, Arial, sans-serif; color: #000000;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+}
+html {height: 100%;}
+body {background: #ffffff; margin: 0 auto; width: 1000px; overflow-y: scroll;}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, p, li, dd, dt, span, a {line-height: 1em; font-weight: normal;}
+ul {list-style: none;}
+a {text-decoration: none; cursor: pointer;}
+a:hover {}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+fieldset {border: none;}
+input, select, textarea {font-size: 14px;}
+input, textarea {outline: none;}
+#page {position: relative; width: 1000px;
+ }
+a, span {font-size: inherit; font-family: inherit; color: inherit; text-transform: inherit; font-weight: inherit;}
+h1 {padding: 0 30px 20px; font-size: 24px; line-height: 1em;
+}
+h2 {padding: 0 30px 20px; font-size: 20px; line-height: 1em;}
+h3 {padding: 0 30px 10px; font-size: 16px; line-height: 1em;}
+h4 {}
+h5 {}
+h6 {}
+p {padding: 0 30px 20px; font-size: 13px; line-height: 1.38em;} 
+ul {font-size: 0; padding: 0 15px;}
+li {display: inline-block; vertical-align: top; font-size: 13px;}
+li h3,
+li p {padding-left: 15px; padding-right: 15px;}
+dl {font-size: 0;} 
+dd, 
+dt {display: inline-block; vertical-align: top; text-transform: uppercase; color: #666666; font-size: 13px;}
+#page ul.photos {width: 480px; position: absolute; right: 5px; top: 0; padding: 0 15px 0 0; background: #409300;}
+#page ul.photos .photo {height: 270px; display: block;}
+
+
+/*s-fonts.css*/
+@font-face {
+	font-family: 'OpenSans';
+	src: url('/css/fonts/opensans-regular-webfont.woff') format('woff'),
+		 url('/css/fonts/opensans-regular-webfont.ttf') format('truetype'),
+		 url('/css/fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSans';
+	src: url('/css/fonts/opensans-bold-webfont.woff') format('woff'),
+		 url('/css/fonts/opensans-bold-webfont.ttf') format('truetype'),
+		 url('/css/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+/*s-header-desktop.css*/
+#header {z-index: 900; width: 500px; background: #409300;}
+#header .servicenavigation .front {font-size: 20px; color: #ffffff; text-transform: uppercase; padding: 20px 30px 80px;}
+#header .servicenavigation .front span {display: block; font-size: 13px; font-style: italic; padding: 5px 0 0 10px; text-transform: none;}
+#header .servicenavigation .contact {display: none;}
+
+
+/*s-content-desktop.css*/
+#content {position: relative; width: 500px; padding: 50px 0 50px; background: #ffffff;}
+#content .scene {position: relative;}
+#content .scene .link {cursor: pointer;}
+#content .scene a {text-decoration: underline; color: #409300;}
+#content .scene .note {padding-top: 5px; font-style: italic; color: #777777;}
+#content .scene .price {padding-top: 5px; font-style: italic; font-size: 16px;}
+#content .scene hr {border: none; border-top: 1px solid #409300; margin: 15px 15px 20px; padding: 0;}
+#content .scene hr.dashed {border: none; border-top: 1px dashed #cccccc; margin: 15px 15px 20px; padding: 0;}
+#content .scene.front {}
+#content .scene.front div.events {position: relative;}
+#content .scene.front div.events .actions {position: absolute; top: 4px; right: 15px;}
+#content .scene.front div.events ul.events > li {border-top: 1px dashed #cccccc; padding: 20px 0 0; display: block;}
+#content .scene.front div.events ul.events > li .actions {position: static; text-align: right; padding: 0 15px 15px; margin-top: -10px;}
+#content .scene.front div.events ul.events > li .actions li {font-size: 12px; color: #409300;}
+#content .scene.front div.events ul.events > li .actions li a {text-decoration: underline;}
+#content .scene.hotel {}
+#content .scene.hotel ul {padding: 0 20px;}
+#content .scene.hotel ul li {padding: 0 50px 10px 0;}
+#content .scene.local ul.toc {}
+#content .scene.local ul.toc li {display: block; padding: 0 15px 10px;}
+#content .scene.local ul.actions {text-align: right; padding-bottom: 20px; padding-right: 30px;}
+#content .scene.golf ul {padding-bottom: 20px;}
+#content .scene.golf ul li {display: block; padding: 0 30px 10px;}
+#content .scene.offers ul {padding-bottom: 20px;}
+#content .scene.offers ul li {display: block; padding: 0 30px 10px;}
+#content .scene.prices h2 {padding-top: 20px;}
+#content .scene.prices table {width: 440px; margin: 0 26px; padding: 0; border-spacing: 0; border-collapse: collapse;}
+#content .scene.prices table.prices td {text-align: right; white-space: nowrap; padding: 2px 0 6px 4px; font-size: 13px;}
+#content .scene.prices table.prices td.item,
+#content .scene.prices table.prices td.max {width: 100%; padding-left: 4px; text-align: left;}
+#content .scene.terms {}
+#content .scene.terms ul li {padding: 0 15px 10px;}
+#content .scene.contact ul {padding-bottom: 20px;}
+#content .scene.contact ul li {display: block; padding: 0 15px 10px;}
+
+
+/*s-navigation-desktop.css*/
+#navigation {z-index: 890; position: relative; width: 500px;}
+#navigation ul {position: relative; background: #d9e9cc; border-bottom: 1px solid #409300; padding: 0 0 0 15px;}
+#navigation ul li {display: inline-block; vertical-align: top; font-size: 14px; height: 34px;}
+#navigation ul li a {display: block; padding: 10px 15px; color: #409300;}
+#navigation ul li a:hover {color: #ffffff; background: #409300;}
+#navigation ul li ul {display: none; width: 485px; background: #ffffff;}
+#navigation ul li ul li {}
+.hotel #navigation .hotel > a {color: #ffffff; background: #409300;}
+.hotel #navigation .hotel ul {display: block; position: absolute; left: 0; top: 35px;}
+.hotel #navigation {height: 69px; border-bottom: 1px solid #409300;}
+.rooms #navigation .rooms > a,
+.parties #navigation .parties > a,
+.conference #navigation .conference > a,
+.restaurant #navigation .restaurant > a {background: #d9e9cc; color: #409300;}
+.golf #navigation .golf > a {color: #ffffff; background: #409300;}
+.golf #navigation .golf ul {display: block; position: absolute; left: 0; top: 35px;}
+.golf #navigation {height: 69px; border-bottom: 1px solid #409300;}
+.lanes #navigation .lanes > a,
+.golfoffers #navigation li .golfoffers > a {background: #d9e9cc; color: #409300;}
+.offers #navigation .offers > a {color: #ffffff; background: #409300;}
+.prices #navigation .prices > a {color: #ffffff; background: #409300;}
+.contact #navigation .contact > a {color: #ffffff; background: #409300;}
+
+
+/*s-footer-desktop.css*/
+#footer {position: fixed; bottom: 0; left: 50%; margin-left: -500px; width: 500px;}
+#footer .vcard {width: 500px; background: #409300;}
+#footer .vcard div.name {display: none;}
+#footer .vcard div.email {display: inline-block; vertical-align: top; padding: 10px 0; color: #ffffff; font-size: 13px;}
+#footer .vcard div.telephone {display: inline-block; vertical-align: top; padding: 10px 0 10px 20px; color: #ffffff; font-size: 13px;}
+#footer .vcard a:hover {text-decoration: underline;}
+#footer .vcard div.telephone:after {content: "\00a0/";}
+#footer .associations {display: none;}
+

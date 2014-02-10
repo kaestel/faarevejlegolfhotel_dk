@@ -13,6 +13,10 @@
 			</li>
 			<li class="golf">
 				<a href="/golf">Golf</a>
+				<ul>
+					<li class="lanes"><a href="/golf/baner">Baner</a></li>
+					<li class="golfoffers"><a href="/golf/tilbud">Pakketilbud</a></li>
+				</ul>
 				<!--ul>
 					<li<?= preg_match("/golf/", $_SERVER["PHP_SELF"]) ? ' class="selected"' : '' ?>><a href="golf.php">Golfpakker</a></li>
 					<li<?= $_SERVER["PHP_SELF"] == "/restaurant_bothwell.php" ? ' class="selected"' : '' ?>><a href="restaurant_bothwell.php">Café og Restaurant Bothwell</a></li>
@@ -20,7 +24,7 @@
 			</li>
 
 			<li class="prices"><a href="/priser">Priser</a></li>
-			<li class="events"><a href="/tilbud">Tilbud</a></li-->
+			<li class="offers"><a href="/tilbud">Tilbud</a></li-->
 			<li class="contact"><a href="/kontakt">Kontakt os</a></li>
 
 			<!--li class="events"><a href="/arrangementer">Nyheder</a></li-->

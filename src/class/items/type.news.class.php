@@ -7,7 +7,7 @@
 /**
 * TypeNews
 */
-class TypeEvent extends Model {
+class TypeNews extends Model {
 
 
 	/**
@@ -15,7 +15,7 @@ class TypeEvent extends Model {
 	*/
 	function __construct() {
 
-		$this->db = SITE_DB.".item_event";
+		$this->db = SITE_DB.".item_news";
 
 		// Name
 		$this->addToModel("name", array(

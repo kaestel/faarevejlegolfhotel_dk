@@ -10,7 +10,7 @@ include_once($_SERVER["FRAMEWORK_PATH"]."/config/init.php");
 $action = $page->actions();
 
 $page->pageTitle("Kontakt os og find vej");
-$page->bodyClass("front");
+$page->bodyClass("contact");
 
 // list
 if(count($action)) {
