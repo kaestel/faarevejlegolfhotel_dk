@@ -12,14 +12,14 @@ include_once("class/system/output.class.php");
 $action = $page->actions();
 
 $IC = new Item();
-$itemtype = "event";
+$itemtype = "news";
 
 $model = $IC->typeObject($itemtype);
 $output = new Output();
 
 
 $page->bodyClass($itemtype);
-$page->pageTitle("Events");
+$page->pageTitle("News");
 
 
 if(is_array($action) && count($action)) {

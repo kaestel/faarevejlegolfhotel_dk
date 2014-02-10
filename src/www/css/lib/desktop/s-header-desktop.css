@@ -1,5 +1,5 @@
-#header {z-index: 900; width: 500px; background: #409300;}
-#header .servicenavigation .front {font-size: 20px; color: #ffffff; text-transform: uppercase; padding: 20px 30px 80px;}
+#header {z-index: 900; width: 500px; background: #a63400; height: 138px;}
+#header .servicenavigation .front {font-size: 20px; color: #ffffff; text-transform: uppercase; padding: 20px 30px 50px;}
 #header .servicenavigation .front span {display: block; font-size: 13px; font-style: italic; padding: 5px 0 0 10px; text-transform: none;}
 
 #header .servicenavigation .contact {display: none;}

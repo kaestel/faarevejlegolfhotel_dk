@@ -3,13 +3,13 @@
 $action = $this->actions();
 
 $IC = new Item();
-$itemtype = "person";
+$itemtype = "news";
 
 $model = $IC->typeObject($itemtype);
 
 ?>
 <div class="scene defaultNew">
-	<h1>New Person</h1>
+	<h1>New news posting</h1>
 
 	<ul class="actions">
 		<li class="cancel"><a href="/admin/<?= $itemtype ?>/list" class="button">Back</a></li>
@@ -19,10 +19,9 @@ $model = $IC->typeObject($itemtype);
 
 		<fieldset>
 			<?= $model->input("name") ?>
-			<?= $model->input("company") ?>
-			<?= $model->input("job_title") ?>
-			<?= $model->input("email") ?>
-			<?= $model->input("telephone") ?>
+			<?= $model->input("short_description") ?>
+			<?= $model->input("long_description") ?>
+			<?= $model->input("link") ?>
 		</fieldset>
 
 		<ul class="actions">

@@ -90,10 +90,10 @@ else if(count($action) && $action[0] == "pakke_3") {
 	$page->footer();
 
 }
-else if(count($action) && $action[0] == "pakke_3_gourmet") {
+else if(count($action) && $action[0] == "pakke_4") {
 
-	$page->header(array("body_class" => "golf golfoffers", "page_title" => "Golf tilbud - Pakke 3 Gourmet"));
-	$page->template("golf/pakke_3_gourmet.php");
+	$page->header(array("body_class" => "golf golfoffers", "page_title" => "Golf tilbud - Pakke 4"));
+	$page->template("golf/pakke_4.php");
 	$page->footer();
 
 }

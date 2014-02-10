@@ -1,4 +1,4 @@
-<div class="scene golf lane i:golf">
+<div class="scene golf lane i:golf4">
 	<h1>Odsherred Golfklub</h1>
 	<p>Det hele startede i 1965, hvor direkt&oslash;r, minkfarmer Carl Johan &Oslash;sterby Carlsen, fiskeeksport&oslash;r Leo Henriksen og advokat John Richter sammen tog til stiftende generalforsamling i Holb&aelig;k Golfklub.</p>
 	<p>Efter m&oslash;det var der frokost, og ved siden af de 3 H&oslash;jby-folk sad en herre i sine egne tanker. Det var fabrikant Ralph Zimmermann, der blev lidt sur over, at nogen forstyrrede hans tanker. Men da det var golf man talte om, t&oslash;ede han op og fortalte, at han kendte lidt til spillet i forvejen og godt ville indvie de andre i golfspillets mysterium.</p>

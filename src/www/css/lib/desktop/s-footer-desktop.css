@@ -1,10 +1,12 @@
-#footer {position: fixed; bottom: 0; left: 50%; margin-left: -500px; width: 500px;}
+#footer {position: fixed; bottom: 0; left: 0; width: 100%; height: 40px;
+background: #a63400;
+}
 
-#footer .vcard {width: 500px; background: #409300;}
+#footer .vcard {width: 500px; position: absolute; bottom: 0; left: 50%; margin-left: -500px;}
 #footer .vcard div.name {display: none;}
 
 #footer .vcard div.email {display: inline-block; vertical-align: top; padding: 10px 0; color: #ffffff; font-size: 13px;}
-#footer .vcard div.telephone {display: inline-block; vertical-align: top; padding: 10px 0 10px 20px; color: #ffffff; font-size: 13px;}
+#footer .vcard div.telephone {display: inline-block; vertical-align: top; padding: 10px 0 10px 28px; color: #ffffff; font-size: 13px;}
 #footer .vcard a:hover {text-decoration: underline;}
 #footer .vcard div.telephone:after {content: "\00a0/";}
 #footer .associations {display: none;}

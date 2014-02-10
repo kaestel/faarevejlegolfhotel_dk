@@ -76,6 +76,9 @@
 	</ul>
 
 
+	<hr class="dashed" />
+
+
 	<div id="lystfiskeri">
 
 		<h2>Lystfiskeri</h2>
@@ -106,6 +109,9 @@
 	<ul class="actions">
 		<li><a href="#content">Til toppen</a></li>
 	</ul>
+
+
+	<hr class="dashed" />
 
 
 	<div id="oeer">
@@ -145,6 +151,9 @@
 	</ul>
 
 
+	<hr class="dashed" />
+
+
 	<div id="museer">
 
 		<h2>Museer</h2>
@@ -165,6 +174,9 @@
 	<ul class="actions">
 		<li><a href="#content">Til toppen</a></li>
 	</ul>
+
+
+	<hr class="dashed" />
 
 
 	<div id="gravhoeje">

@@ -3178,6 +3178,107 @@ Util.Objects["prices"] = new function() {
 		u.createPhotoList(scene, scene.photo_sequence);
 	}
 }
+Util.Objects["golf"] = new function() {
+	this.init = function(scene) {
+		scene.photo_sequence = [
+			"/img/desktop/pi_birdview_1.jpg",
+			"/img/desktop/pi_hotel_1.jpg",
+			"/img/desktop/pi_entrance_3.jpg"
+		];
+		u.createPhotoList(scene, scene.photo_sequence);
+	}
+}
+Util.Objects["golfoffers"] = new function() {
+	this.init = function(scene) {
+		scene.photo_sequence = [
+			"/img/desktop/pi_entrance_1.jpg",
+			"/img/desktop/pi_restaurant_3.jpg",
+			"/img/desktop/pi_hotel_2.jpg",
+			"/img/desktop/pi_birdview_1.jpg",
+			"/img/desktop/pi_entrance_3.jpg"
+		];
+		u.createPhotoList(scene, scene.photo_sequence);
+	}
+}
+Util.Objects["golf4"] = new function() {
+	this.init = function(scene) {
+		scene.photo_sequence = [
+			"/img/desktop/pi_entrance_1.jpg",
+			"/img/desktop/pi_birdview_1.jpg",
+			"/img/desktop/pi_entrance_3.jpg",
+			"/img/desktop/pi_restaurant_3.jpg"
+		];
+		u.createPhotoList(scene, scene.photo_sequence);
+	}
+}
+Util.Objects["terms"] = new function() {
+	this.init = function(scene) {
+		scene.photo_sequence = [
+			"/img/desktop/pi_birdview_2.jpg",
+			"/img/desktop/pi_hotel_2.jpg",
+			"/img/desktop/pi_restaurant_5.jpg",
+			"/img/desktop/pi_restaurant_8.jpg"
+		];
+		u.createPhotoList(scene, scene.photo_sequence);
+	}
+}
+Util.Objects["local"] = new function() {
+	this.init = function(scene) {
+		scene.photo_sequence = [
+			"/img/desktop/pi_birdview_2.jpg",
+			"/img/desktop/pi_hotel_2.jpg",
+			"/img/desktop/pi_restaurant_5.jpg",
+			"/img/desktop/pi_local_1.jpg",
+			"/img/desktop/pi_entrance_1.jpg",
+			"/img/desktop/pi_restaurant_4.jpg",
+			"/img/desktop/pi_rooms_2.jpg",
+			"/img/desktop/pi_hotel_1.jpg",
+			"/img/desktop/pi_local_2.jpg",
+			"/img/desktop/pi_restaurant_8.jpg",
+			"/img/desktop/pi_restaurant_1.jpg"
+		];
+		u.createPhotoList(scene, scene.photo_sequence);
+	}
+}
+Util.Objects["offers"] = new function() {
+	this.init = function(scene) {
+		scene.photo_sequence = [
+			"/img/desktop/pi_hotel_2.jpg",
+			"/img/desktop/pi_local_1.jpg",
+			"/img/desktop/pi_entrance_1.jpg",
+			"/img/desktop/pi_restaurant_4.jpg",
+			"/img/desktop/pi_local_2.jpg",
+			"/img/desktop/pi_restaurant_1.jpg"
+		];
+		u.createPhotoList(scene, scene.photo_sequence);
+	}
+}
+Util.Objects["contact"] = new function() {
+	this.init = function(scene) {
+		scene.photo_sequence = [
+			"/img/desktop/pi_entrance_1.jpg",
+			"/img/desktop/pi_hotel_2.jpg",
+			"/img/desktop/pi_local_2.jpg",
+			"/img/desktop/pi_restaurant_1.jpg"
+		];
+		u.createPhotoList(scene, scene.photo_sequence);
+	}
+}
+Util.Objects["openhouse"] = new function() {
+	this.init = function(scene) {
+		scene.photo_sequence = [
+			"/img/aabent_hus_20112702/pi_her_starter_skattejagt.jpg",
+			"/img/aabent_hus_20112702/pi_ude_paa_skattejagt.jpg",
+			"/img/aabent_hus_20112702/pi_mad_til_alle.jpg",
+			"/img/aabent_hus_20112702/pi_klar_til_skattejagt.jpg",
+			"/img/aabent_hus_20112702/pi_fyldt_restaurant.jpg",
+			"/img/aabent_hus_20112702/pi_alfrednielsen_joergenkalvslund.jpg",
+			"/img/aabent_hus_20112702/pi_afsloering_af_vaerk.jpg",
+			"/img/aabent_hus_20112702/pi_marianne_kasper_foran_vaerk.jpg",
+		];
+		u.createPhotoList(scene, scene.photo_sequence);
+	}
+}
 u.createPhotoList = function(scene, photo_list) {
 	scene.photo_list = u.ae(page, "ul", {"class":"photos"});
 	var i, li;

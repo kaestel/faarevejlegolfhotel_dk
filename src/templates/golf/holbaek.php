@@ -1,7 +1,6 @@
-<div class="scene golf lane i:golf">
+<div class="scene golf lane i:golf4">
 
 	<h1>Holb&aelig;k Golfklub</h1>
-	
 	<p>
 		Klubben blev startet i 1964 som en 9-hullers bane p&aring; en holm &ndash; 
 		Kirseb&aelig;rholmen - i Holb&aelig;k Fjord. Arealet var et gammelt 

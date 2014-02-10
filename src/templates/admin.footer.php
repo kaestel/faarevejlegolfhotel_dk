@@ -2,7 +2,7 @@
 
 	<div id="navigation">
 		<ul>
-			<li class="event"><a href="/admin/event/list">Events</a></li>
+			<li class="news"><a href="/admin/news/list">News</a></li>
 			<li class="tags"><a href="/admin/tags/list">Tags</a></li>
 		</ul>
 	</div>

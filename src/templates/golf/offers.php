@@ -1,4 +1,4 @@
-<div class="scene golf i:golf">
+<div class="scene golf i:golfoffers">
 
 	<h1>Golf tilbud</h1>
 	<p>Golfpakkerne er forslag, venligst kontakt os hvis De har andre &oslash;nsker.</p>
@@ -37,10 +37,10 @@
 
 	<hr />
 
-	<h2><a href="/golf/pakke_3_gourmet">Golfpakke 3 Gourmet</a></h2>
+	<h2><a href="/golf/pakke_4">Golfpakke 4</a></h2>
 	<p>
-		2 x overnatning, 2 x morgenbuffet,<br />2 x aftenmenu, 2 dages golf<br />
+		2 x overnatning, 2 x morgenbuffet,<br />2 x aftenmenu, 3 dages golf<br />
 	</p>
-	<p class="price">Kun kr. 1.995,00</p>
+	<p class="price">Kun kr. 1.795,00</p>
 
 </div>

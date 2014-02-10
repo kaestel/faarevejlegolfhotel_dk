@@ -3,16 +3,16 @@
 $action = $this->actions();
 
 $IC = new Item();
-$itemtype = "event";
+$itemtype = "news";
 
 
 $all_items = $IC->getItems(array("itemtype" => $itemtype, "order" => "status DESC"));
 ?>
 <div class="scene defaultList <?= $itemtype ?>List">
-	<h1>Events</h1>
+	<h1>News</h1>
 
 	<ul class="actions i:actions">
-		<li class="new"><a href="/admin/<?= $itemtype ?>/new" class="button primary key:n">Create new event</a></li>
+		<li class="new"><a href="/admin/<?= $itemtype ?>/new" class="button primary key:n">Create news post</a></li>
 	</ul>
 
 	<div class="all_items">
@@ -48,7 +48,7 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "order" => "status DES
 <?			endforeach; ?>
 		</ul>
 <?		else: ?>
-		<p>No events.</p>
+		<p>No news.</p>
 <?		endif; ?>
 	</div>
 
