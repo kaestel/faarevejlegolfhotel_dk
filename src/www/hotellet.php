@@ -1,43 +1,67 @@
-<?php 
-	$page_title = "Hotellet";
-	include($_SERVER["LOCAL_PATH"]."/templates/shell_header.php");
+<?php
+$access_item = false;
+if(isset($read_access) && $read_access) {
+	return;
+}
+
+include_once($_SERVER["FRAMEWORK_PATH"]."/config/init.php");
+
+
+$action = $page->actions();
+
+
+$page->pageTitle("Hotellet");
+$page->bodyClass("hotel");
+
+// list
+if(!$action) {
+
+	$page->header();
+	$page->template("pages/hotel.php");
+	$page->footer();
+
+}
+else if(count($action) && $action[0] == "vaerelser") {
+
+	$page->header(array("body_class" => "hotel rooms", "page_title" => "Værelserne"));
+	$page->template("pages/rooms.php");
+	$page->footer();
+
+}
+else if(count($action) && $action[0] == "konference") {
+
+	$page->header(array("body_class" => "hotel conference", "page_title" => "Konferencer"));
+	$page->template("pages/conference.php");
+	$page->footer();
+
+}
+else if(count($action) && $action[0] == "selskaber") {
+
+	$page->header(array("body_class" => "hotel parties", "page_title" => "Selskaber"));
+	$page->template("pages/parties.php");
+	$page->footer();
+
+}
+else if(count($action) && $action[0] == "restaurant") {
+
+	$page->header(array("body_class" => "hotel restaurant", "page_title" => "Restaurant"));
+	$page->template("pages/restaurant.php");
+	$page->footer();
+
+}
+else if(count($action) && $action[0] == "lokalomraadet") {
+
+	$page->header(array("body_class" => "hotel local", "page_title" => "Lokalområdet"));
+	$page->template("pages/local.php");
+	$page->footer();
+
+}
+else {
+
+	$page->header();
+	$page->template("404.php");
+	$page->footer();
+
+}
+
 ?>
-
-	<div class="c200">
-		<h1>Hotellet</h1>
-		<p>F&aring;revejle Golf Hotel ligger i det natursk&oslash;nne Odsherred - hotellet ved kirken.</p>
-		<p>Under punkterne i menuen til venstre, kan De se mere om hvilke faciliteter vi kan tilbyde i forbindelse med Deres arrangement.</p>
-
-		<p><a href="video.php">Se video om F&aring;revejle Golf Hotel</a></p>
-
-		<hr />
-
-		<h2>F&aring;revejle Golf Hotel</h2>
-		<ul>
-			<li>22 store velindrettede v&aelig;relser, heraf 4 familiev&aelig;relser med egen solterasse</li>
-			<li>1 suite med jacuzzi og andre l&aelig;kkerier</li>
-			<li>Alle v&aelig;relser har tv og hurtig internetadgang</li>
-			<li>Konference- og M&oslash;delokaler</li>
-			<li>Green-fee aftaler med lokale <a href="golf_dragsholm.php">DGC Dragsholm Golf Club</a>, <a href="golf_odsherred.php">Odsherred Golfklub</a>, <a href="golf_holbaek.php">Holb&aelig;k Golfklub</a> og <a href="golf_kalundborg.php">Kalundborg Golfklub</a>.</li>
-			<li>Ogs&aring; en dejlig oplevelse for ikke golfere</li>
-			<li>Lever op til nutidens krav og standarder indenfor 3-stjernede hoteller</li>
-			<li>Gratis tr&aring;dl&oslash;st internet</li>
-		</ul>
-
-		<hr />
-
-		<p><strong>Check-in/ankomst</strong>: Fra kl. 14.00</p>
-		<p><strong>Check-out/afrejse</strong>: Senest kl. 10.30</p>
-
-		<hr />
-
-		<p><a href="afbestilling.php">Se afbestillingsregler</a></p>
-
-	</div>
-
-	<div class="c200">
-		<img src="img/pics/pi_hotel.jpg" alt="Hotellet" class="pic" />
-		<img src="img/pics/pi_indgang.jpg" alt="Indgangen" class="pic" />
-	</div>
-
-<?php include($_SERVER["LOCAL_PATH"]."/templates/shell_footer.php") ?>

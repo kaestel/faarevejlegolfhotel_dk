@@ -9,14 +9,14 @@ include_once($_SERVER["FRAMEWORK_PATH"]."/config/init.php");
 
 $action = $page->actions();
 
-$page->pageTitle("Også for ikke-golfere");
-$page->bodyClass("front");
+$page->pageTitle("Kampagne tilbud");
+$page->bodyClass("offers");
 
 // list
 if(count($action)) {
 
 	$page->header();
-	$page->template("pages/index.php");
+	$page->template("pages/offers.php");
 	$page->footer();
 
 }

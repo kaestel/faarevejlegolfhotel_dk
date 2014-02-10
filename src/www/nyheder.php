@@ -9,14 +9,14 @@ include_once($_SERVER["FRAMEWORK_PATH"]."/config/init.php");
 
 $action = $page->actions();
 
-$page->pageTitle("Også for ikke-golfere");
-$page->bodyClass("front");
+$page->pageTitle("Arrangementer på Fårevejle Golf Hotel");
+$page->bodyClass("events");
 
 // list
 if(count($action)) {
 
 	$page->header();
-	$page->template("pages/index.php");
+	$page->template("pages/events.php");
 	$page->footer();
 
 }
