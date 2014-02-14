@@ -1,4 +1,4 @@
-<div class="scene golf i:golf">
+<div class="scene golf i:scene">
 
 	<h1>Revy og Golf</h1>
 

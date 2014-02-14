@@ -6,6 +6,8 @@ CREATE TABLE `SITE_DB`.`item_news` (
   `short_description` text NULL,
   `long_description` text NULL,
   `link` varchar(255) NOT NULL,
+  `link_text` varchar(255) NOT NULL,
+  `classname` varchar(255) NOT NULL,
 
   `files` varchar(5) NOT NULL,
 

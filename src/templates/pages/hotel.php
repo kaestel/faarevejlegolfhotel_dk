@@ -2,6 +2,26 @@
 
 	<h1>Om hotellet</h1>
 	<p>
+		Hotellet ligger i den gamle Fårevejle Centralskole's nyrenoverede hovedbygninger. Skolen blev nedlagt i 2002 og den 1. juni 2004 åbnede hotellet efter ombygning 
+		<p>
+		
+			Hotellet ligger på bredden af den tørlagte lammefjord, lige ved siden af den smukke Fårevejle Kirke,
+			hvor Jarlen af Bothwell hviler i kæleren. Vi har alt du behøver, både til øjet
+			til tungen og til fødderne.
+		</p>
+		
+
+		Måske en boks med HISTORIE.......
+	
+		Fårevejle Golf Hotel ...engang var det Fårevejle Centralskole. Skolen blev nedlagt i 2002 og den 1.6.2004 .
+		Her kan den lille video måske være en del........ 
+	
+		Gulvtæppet i restauranten (billede med gulvtæppet) er en seværdighed i sig selv, idet hele den nu inddæmmede Lammefjord ligger for dine fødder. Det er interessant at se hvordan Lammefjorden tog sig ud før den første inddæmning i 1873 - det ses tydeligt at Fårevejle Kirke lå lige i vandkanten. Lammefjorden - der hvor de fantastiske Lammefjordsgulerødder, kartofler, løg og ikke mindst asparges dyrkes - ligger næsten lige udenfor døren.
+
+		I Restauranten hænger et billede tegnet af Kasper Heron Købke - Remember er navnet på billedet. Med de tusindevis af detaljer vil du kunne nikke genkendende til hvordan en skole så ud i og omkring 1955.Billedet er unikt.....her kunne det indslag du har liggende fra dengang vi indviede billedet måske komme ind...
+
+		Fårevejle kirke med  liggende i kælderen er nabo til Hotellet.
+		
 		TODO: mangler bedre tekst Hotellet er opført i 19xx, på den gamle central gård i Fårevejle
 		bla. bla. bla Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 

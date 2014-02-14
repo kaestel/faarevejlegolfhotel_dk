@@ -1,207 +1,102 @@
 Util.Objects["front"] = new function() {
 	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_hotel_1.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
+		scene.photos_priority = [2,22,8,5,12]; 
+		u.createSlideShow(scene, scene.photos_priority);
 	}
 }
 
 Util.Objects["hotel"] = new function() {
 	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_2.jpg",
-			"/img/desktop/pi_restaurant_3.jpg",
-			"/img/desktop/pi_restaurant_5.jpg",
-			"/img/desktop/pi_rooms_2.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
+		scene.photos_priority = [3,11,13,19]; 
+		u.createSlideShow(scene, scene.photos_priority);
 	}
 }
 
 Util.Objects["rooms"] = new function() {
 	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_rooms_1.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_rooms_2.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
+		scene.photos_priority = [18,6,19]; 
+		u.createSlideShow(scene, scene.photos_priority);
 	}
 }
 
-Util.Objects["parties"] = new function() {
+Util.Objects["scene"] = new function() {
 	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_restaurant_5.jpg",
-			"/img/desktop/pi_restaurant_9.jpg",
-			"/img/desktop/pi_restaurant_2.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
+		scene.photos_priority = false; 
+		u.createSlideShow(scene, scene.photos_priority);
 	}
 }
 
-Util.Objects["conference"] = new function() {
-	this.init = function(scene) {
+// 
+// Util.Objects["conference"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
+// 
+// Util.Objects["restaurant"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
+// 
+// Util.Objects["prices"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
+// 
+// Util.Objects["golf"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
+// 
+// Util.Objects["golfoffers"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
+// 
+// Util.Objects["golf4"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
+// 
+// Util.Objects["terms"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
+// 
+// Util.Objects["local"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
+// 
+// Util.Objects["offers"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
+// 
+// Util.Objects["contact"] = new function() {
+// 	this.init = function(scene) {
+// 		scene.photos_priority = false; 
+// 		u.createSlideShow(scene, scene.photos_priority);
+// 	}
+// }
 
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_2.jpg",
-			"/img/desktop/pi_restaurant_3.jpg",
-			"/img/desktop/pi_entrance_3.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_birdview_2.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-
-Util.Objects["restaurant"] = new function() {
-	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_restaurant_1.jpg",
-			"/img/desktop/pi_restaurant_6.jpg",
-			"/img/desktop/pi_restaurant_3.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_restaurant_5.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-
-Util.Objects["prices"] = new function() {
-	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_hotel_1.jpg",
-			"/img/desktop/pi_entrance_3.jpg",
-			"/img/desktop/pi_restaurant_5.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-
-Util.Objects["golf"] = new function() {
-	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_birdview_1.jpg",
-			"/img/desktop/pi_hotel_1.jpg",
-			"/img/desktop/pi_entrance_3.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-
-Util.Objects["golfoffers"] = new function() {
-	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_restaurant_3.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_birdview_1.jpg",
-			"/img/desktop/pi_entrance_3.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-
-Util.Objects["golf4"] = new function() {
-	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_birdview_1.jpg",
-			"/img/desktop/pi_entrance_3.jpg",
-			"/img/desktop/pi_restaurant_3.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-
-Util.Objects["terms"] = new function() {
-	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_birdview_2.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_restaurant_5.jpg",
-			"/img/desktop/pi_restaurant_8.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-
-Util.Objects["local"] = new function() {
-	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_birdview_2.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_restaurant_5.jpg",
-			"/img/desktop/pi_local_1.jpg",
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_rooms_2.jpg",
-			"/img/desktop/pi_hotel_1.jpg",
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_restaurant_8.jpg",
-			"/img/desktop/pi_restaurant_1.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-
-Util.Objects["offers"] = new function() {
-	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_local_1.jpg",
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_restaurant_1.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-
-Util.Objects["contact"] = new function() {
-	this.init = function(scene) {
-
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_restaurant_1.jpg"
-		];
-
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
 
 Util.Objects["openhouse"] = new function() {
 	this.init = function(scene) {
@@ -222,6 +117,115 @@ Util.Objects["openhouse"] = new function() {
 }
 
 
+u.createSlideShow = function(scene, priority) {
+
+	// adjust page height
+	if(page.offsetHeight < u.browserH()) {
+		u.as(page, "height", u.browserH()+"px");
+	}
+
+	var photos = JSON.parse(JSON.stringify(u.photos));
+
+	scene.slideshow = u.ae(page, "ul", {"class":"photos"});
+
+	var i, object, li;
+	if(priority) {
+
+		for(i = 0; object = photos[priority[i]]; i++) {
+
+			li = u.ae(scene.slideshow, "li", {"class":"photo", "html":"<span>"+object.text+"</span>"});
+			li.object = object;
+			li.loaded = function(queue) {
+
+				this.ready = true;
+				u.as(this, "backgroundImage", "url("+queue[0]._image.src+")");
+
+			}
+			u.preloader(li, [object.image]);
+
+
+			if(object.link) {
+				u.ce(li);
+				u.ac(li, "link");
+				li.clicked = function() {
+					location.href = this.object.link;
+				}
+			}
+
+		}
+
+		// sort array numerically to avoid having to recalulate index after each removal
+		priority.sort(function(a,b) {return a - b;});
+		for(i = 0; index = priority[i]; i++) {
+			photos.splice(index, 1);
+		}
+
+	}
+
+
+
+	// inject remaining photos in slideshow
+	while(photos.length) {
+
+		object = photos.splice(u.random(0, photos.length-1), 1)[0];
+
+		li = u.ae(scene.slideshow, "li", {"class":"photo", "html":"<span>"+object.text+"</span>"});
+		li.object = object;
+
+		li.loaded = function(queue) {
+
+			this.ready = true;
+			u.as(this, "backgroundImage", "url("+queue[0]._image.src+")");
+
+		}
+
+		if(object.link) {
+			u.ce(li);
+			u.ac(li, "link");
+			li.clicked = function() {
+				location.href = this.object.link;
+			}
+		}
+
+		if(li.offsetTop - li.offsetHeight < page.offsetHeight) {
+			u.preloader(li, [object.image]);
+		}
+		else {
+			break;
+		}
+	}
+
+
+	scene.slideshow.nodes = u.qsa("li", scene.slideshow);
+
+	// start slideshow
+	scene.slider = function() {
+
+		this.slideshow.transitioned = function() {
+			u.a.transition(this, "none");
+			u.ae(this, this.firstChild);
+			u.a.translate(this, 0, 0);
+
+			var i, li;
+			for(i = 0; li = this.nodes[i]; i++) {
+				if(!li.ready && li.offsetTop - li.offsetHeight < page.offsetHeight) {
+					u.preloader(li, [li.object.image]);
+				}
+			}
+		}
+
+		u.a.transition(this.slideshow, "all 0.7s ease-in-out");
+		u.a.translate(this.slideshow, 0, -this.slideshow.firstChild.offsetHeight);
+
+		u.t.setTimer(this, this.slider, 4000);
+
+	}
+
+	u.t.setTimer(scene, scene.slider, 4000);
+}
+
+
+// create custom photo list
 u.createPhotoList = function(scene, photo_list) {
 
 	scene.photo_list = u.ae(page, "ul", {"class":"photos"});
@@ -234,5 +238,6 @@ u.createPhotoList = function(scene, photo_list) {
 
 	u.as(page, "height", scene.photo_list.offsetHeight+"px");
 }
+
 
 

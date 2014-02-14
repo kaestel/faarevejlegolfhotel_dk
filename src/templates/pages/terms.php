@@ -1,4 +1,4 @@
-<div class="scene terms i:terms">
+<div class="scene terms i:scene">
 
 	<h1>Afbestillingsregler</h1>
 	<p>Der skelnes ikke mellem &aring;rsager til afbestilling.</p>

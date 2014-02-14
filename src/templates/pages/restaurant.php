@@ -1,4 +1,4 @@
-<div class="scene restaurant i:restaurant">
+<div class="scene restaurant i:scene">
 
 	<h1>Hotellets restaurant</h1>
 

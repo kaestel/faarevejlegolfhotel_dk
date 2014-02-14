@@ -17,6 +17,15 @@ class TypeNews extends Model {
 
 		$this->db = SITE_DB.".item_news";
 
+		// Published
+		$this->addToModel("published_at", array(
+			"type" => "datetime",
+			"label" => "Publish date (yyyy-mm-dd)",
+			"pattern" => "^[\d]{4}-[\d]{2}-[\d]{2}[0-9\-\/ \:]*$",
+			"hint_message" => "Date to publish news post on site. Until this date news post will remain hidden on site. Leave empty for instant publication", 
+			"error_message" => "Date must be of format (yyyy-mm-dd[ hh:mm:ss])"
+		));
+
 		// Name
 		$this->addToModel("name", array(
 			"type" => "string",
@@ -41,6 +50,27 @@ class TypeNews extends Model {
 			"label" => "Long description",
 			"hint_message" => "Write a long description of the event",
 			"error_message" => "Long description must be filled out"
+		));
+
+		// Link
+		$this->addToModel("link", array(
+			"type" => "string",
+			"label" => "Link",
+			"hint_message" => "Link to additional infomation"
+		));
+
+		// Link text
+		$this->addToModel("link_text", array(
+			"type" => "string",
+			"label" => "Link text",
+			"hint_message" => "Text for link to additional infomation"
+		));
+
+		// class
+		$this->addToModel("classname", array(
+			"type" => "string",
+			"label" => "CSS classname",
+			"hint_message" => "CSS classname for special appearance"
 		));
 
 		// Files

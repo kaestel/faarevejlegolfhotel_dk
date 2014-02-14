@@ -1,4 +1,4 @@
-<div class="scene golf i:golfoffers">
+<div class="scene golf i:scene">
 
 	<h1>Golf tilbud</h1>
 	<p>Golfpakkerne er forslag, venligst kontakt os hvis De har andre &oslash;nsker.</p>

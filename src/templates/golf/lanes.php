@@ -1,4 +1,4 @@
-<div class="scene lanes i:golf">
+<div class="scene lanes i:scene">
 
 	<h1>Golfbaner</h1>
 		

@@ -1,4 +1,4 @@
-<div class="scene offers i:offers">
+<div class="scene offers i:scene">
 
 	<h1>Kampagner og Tilbud</h1>
 

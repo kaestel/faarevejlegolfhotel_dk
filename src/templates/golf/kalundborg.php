@@ -1,4 +1,4 @@
-<div class="scene golf lane i:golf">
+<div class="scene golf lane i:scene">
 	<h1>Kalundborg Golfklub</h1>
 	<p>Kalundborg Golfklub blev stiftet den 14. marts 1974 som klub nr. 25 indenfor Dansk Golf Union.</p>
 	<p>

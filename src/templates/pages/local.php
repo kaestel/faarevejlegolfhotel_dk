@@ -1,4 +1,4 @@
-<div class="scene local i:local">
+<div class="scene local i:scene">
 
 	<h1>Lokalomr&aring;det</h1>
 
@@ -33,14 +33,6 @@
 			turister og fastboende m&oslash;des om aftenen.
 		</p>
 
-		<h3>Havns&oslash;</h3>
-		<p>
-			Havns&oslash;, i bunden af Neksel&oslash; Bugt, ligger utroligt smukt med udsigt til 
-			Neksel&oslash; og Vejrh&oslash;jbuerne. Sm&aring; fiskerb&aring;de, lystsejlere og ikke 
-			mindst de 2 f&aelig;rger til Neksel&oslash; og Sejer&oslash; er med til at give stedet stemning 
-			og liv. T&aelig;t ved havnen findes hotel, restaurant og supermarked.
-		</p>
-
 		<h3>Odden havn</h3>
 		<p>
 			Arne Jacobsen p&aring; Sj. Odde - Sj&aelig;llands Odde oser af fiskermilj&oslash; med kuttere, 
@@ -52,6 +44,9 @@
 			gør havneom­rådet til et spændende og livligt besøgsmål. Her finder du alt, hvad man forbinder 
 			med en rigtig havn.
 		</p>
+		<ul class="links">
+			<li><a href="http://oddenportalen.dk/dk/kultur/natur/havnen/">http://oddenportalen.dk/dk/kultur/natur/havnen/</a></li>
+		</ul>
 
 		<h3>Nyk&oslash;bing Sj. havn</h3>
 		<p>
@@ -61,6 +56,9 @@
 			med en r&aelig;kke sm&aring; kunsth&aring;ndv&aelig;rkerv&aelig;rksteder - givet havnen en ny 
 			og sp&aelig;ndende profil.
 		</p>
+		<ul class="links">
+			<li><a href="http://www.odsherredhavne.dk/page2043.aspx">http://www.odsherredhavne.dk/page2043.aspx</a></li>
+		</ul>
 
 		<h3>R&oslash;rvig Havn</h3>
 		<p>
@@ -68,6 +66,20 @@
 			fra molen, gode restauranter og mange mennesker. Stemningen understreges af den hyggelige 
 			f&aelig;rge, der sejler til Hundested.
 		</p>
+		<ul class="links">
+			<li><a href="http://www.odsherredhavne.dk/page2044.aspx">http://www.odsherredhavne.dk/page2044.aspx</a></li>
+		</ul>
+
+		<h3>Havns&oslash;</h3>
+		<p>
+			Havns&oslash;, i bunden af Neksel&oslash; Bugt, ligger utroligt smukt med udsigt til 
+			Neksel&oslash; og Vejrh&oslash;jbuerne. Sm&aring; fiskerb&aring;de, lystsejlere og ikke 
+			mindst de 2 f&aelig;rger til Neksel&oslash; og Sejer&oslash; er med til at give stedet stemning 
+			og liv.
+		</p>
+		<ul class="links">
+			<li><a href="http://www.havnsø.dk">http://www.havnsø.dk</a></li>
+		</ul>
 
 	</div>
 
@@ -132,6 +144,9 @@
 			Turen til Sejer&oslash; foreg&aring;r med f&aelig;rge fra Havns&oslash;, hvorfra 
 			ogs&aring; f&aelig;rgen til Neksel&oslash; udg&aring;r.
 		</p>
+		<ul class="links">
+			<li><a href="http://www.sejero.dk">http://www.sejero.dk</a></li>
+		</ul>
 
 		<h3>Neksel&oslash;</h3>
 		<p>
@@ -143,6 +158,9 @@
 			Der er to afm&aelig;rkede vandreruter p&aring; &oslash;en. Undervejs kan man observere 
 			et enest&aring;ende fugleliv.
 		</p>
+		<ul class="links">
+			<li><a href="http://www.nexeloe.dk">http://www.nexeloe.dk</a></li>
+		</ul>
 
 	</div>
 
@@ -157,17 +175,62 @@
 	<div id="museer">
 
 		<h2>Museer</h2>
-		<p>TODO: tekst om musser</p>
 		
-		<h3>Malergården</h3>
+		<h3>Malergården og Odsherreds Kunstmuseum</h3>
+ 		<p>
+			Odsherreds Kunstmuseums udstilling rummer først og fremmest malerier og billedkunst af
+			Odsherredsmalere, der fra 1930 bosatte sig i bakkerne mellem Sejerøbugten og den inddæmmede Lammefjord.
+		</p>
+		<p>
+			Malergården blev etableret fra 1934 til 1936 af maleren Sigurd Swane og hans kone Agnete, og blev
+			den fjerde og yngste af de fire store kunsterkolonier i Danmark - efter Skagensmalerne, Fynbomalerne 
+			og Bornholmermalerne. Malere som Karl Bovin, Kaj Ejstrup, Lauritz Hartz, Victor Brockdorff, 
+			Povl Christiansen, Ernst Syberg, Ole Kielberg, Viggo Rørup, Ellen Krause og mange flere skabte 
+			billeder med udgangspunkt i lyset, landskabet og livet i bakkelandet.
+		</p>
+		<ul class="links">
+			<li><a href="http://www.odsherreds-kunstmuseum.dk">http://www.odsherreds-kunstmuseum.dk</a></li>
+		</ul>
+
 
 		<h3>Odsherred Brandmuseum</h3>
+		<p>
+			Museets udgør ca. 1.200 m2 udstillingsareal, hvoraf hovedparten udgøres af det store halgulv, 
+			med 20 veterankøretøjer. Køretøjerne er primært brandkøretøjer fra det forrige 
+			århundrede, men også en hestetrukket brandsprøjte fra 1864 har fundet vej til museet.
+		</p>
 
-		<h3>Odsherreds Kunstmuseum</h3>
+		<p>
+			På 1. sal over foreningslokalerne er der forskellige udstillinger af mindre brandmateriel 
+			og –udstyr. Ikke mindst de store montre med brandhjelme fra hele verden er et besøg værd, 
+			og det er muligt at se ca. 140 brandhjelme fra 30 forskellige lande.
+		</p>
+		<p>
+			Museet har også en meget stor samling på mere end 200 forskellige fortjenstmedaljer fra 
+			brandvæsener i hele verden. 
+		</p>
+		<ul class="links">
+			<li><a href="http://www.odsherredbrandmuseum.dk">http://www.odsherredbrandmuseum.dk</a></li>
+		</ul>
 
-		<h3>Nykøbing Sj. Psykiatriske Museum</h3>
 
 		<h3>Hempel Glasmuseum</h3>
+		<p>
+			Industrimanden J.C. Hempel, stifter af Hempels Skibsfarve-Fabrik, var stærkt engageret i uddannelse, 
+			sejlsport, kultur og i sin samling af gamle glas.
+		</p>
+		<p>
+			Hempel Glasmuseum er Nordeuropas største private samling af glas. J. C. Hempels samling af mere end 
+			2000 glas fra oldtiden til nutidens moderne glaskunst, samt porcelæn dekoreret med motiver 
+			fra slotte og herregårde.
+		</p>
+		<p>
+			Peter F. Heerings privatsamling af glas fra de tidlige danske glasværker, bl.a. Conradsminde, 
+			Ålborg, Fyn og Holmegaard, er udlånt til Hempel Glasmuseum og er udstillet permanent.
+		</p>
+		<ul class="links">
+			<li><a href="http://hempelglasmuseum.dk">http://hempelglasmuseum.dk</a></li>
+		</ul>
 
 	</div>
 

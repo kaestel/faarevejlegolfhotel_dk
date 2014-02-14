@@ -22,6 +22,8 @@ $model = $IC->typeObject($itemtype);
 			<?= $model->input("short_description") ?>
 			<?= $model->input("long_description") ?>
 			<?= $model->input("link") ?>
+			<?= $model->input("link_text") ?>
+			<?= $model->input("classname") ?>
 		</fieldset>
 
 		<ul class="actions">

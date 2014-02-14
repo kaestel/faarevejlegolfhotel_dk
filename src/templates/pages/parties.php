@@ -1,4 +1,4 @@
-<div class="scene parties i:parties">
+<div class="scene parties i:scene">
 
 	<h1>Selskabslokaler</h1>
 

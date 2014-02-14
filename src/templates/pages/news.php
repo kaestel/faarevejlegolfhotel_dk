@@ -1,4 +1,4 @@
-<div class="scene events i:events">
+<div class="scene events i:scene">
 
 	<h1>Arrangementer p&aring; F&aring;revejle Golf Hotel</h1>
 	<p>

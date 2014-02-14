@@ -1,4 +1,4 @@
-<div class="scene conference i:conference">
+<div class="scene conference i:scene">
 
 	<h1>Konference</h1>
 	<p>

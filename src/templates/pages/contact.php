@@ -1,4 +1,4 @@
-<div class="scene contact i:contact">
+<div class="scene contact i:scene">
 
 	<h1>F&aring;revejle Golf Hotel ApS</h1>
 	<p>

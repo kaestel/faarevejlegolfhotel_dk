@@ -1,4 +1,4 @@
-<div class="scene golf lane i:golf4">
+<div class="scene golf lane i:scene">
 
 	<h1>Holb&aelig;k Golfklub</h1>
 	<p>

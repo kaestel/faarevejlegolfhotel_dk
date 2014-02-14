@@ -3,7 +3,7 @@
 $action = $this->actions();
 
 $IC = new Item();
-$itemtype = "person";
+$itemtype = "news";
 
 $model = $IC->typeObject($itemtype);
 
@@ -12,7 +12,7 @@ $item_id = $item["id"];
 
 ?>
 <div class="scene defaultEdit">
-	<h1>Edit person</h1>
+	<h1>Edit news posting</h1>
 
 	<ul class="actions">
 		<li class="cancel"><a href="/admin/<?= $itemtype ?>/list" class="button">Back</a></li>
@@ -22,16 +22,18 @@ $item_id = $item["id"];
 		<form action="/admin/cms/update/<?= $item_id ?>" class="labelstyle:inject" method="post" enctype="multipart/form-data">
 
 			<fieldset>
+				<?= $model->input("published_at", array("value" => $item["published_at"])) ?>
 				<?= $model->input("name", array("value" => $item["name"])) ?>
-				<?= $model->input("company", array("value" => $item["company"])) ?>
-				<?= $model->input("job_title", array("value" => $item["job_title"])) ?>
-				<?= $model->input("email", array("value" => $item["email"])) ?>
-				<?= $model->input("telephone", array("value" => $item["telephone"])) ?>
+				<?= $model->input("short_description", array("value" => $item["short_description"])) ?>
+				<?= $model->input("long_description", array("value" => $item["long_description"])) ?>
+				<?= $model->input("link", array("value" => $item["link"])) ?>
+				<?= $model->input("link_text", array("value" => $item["link_text"])) ?>
+				<?= $model->input("classname", array("value" => $item["classname"])) ?>
 			</fieldset>
 
 			<ul class="actions">
-				<li class="cancel"><a href="/admin/<?= $itemtype ?>/list" class="button">Back</a></li>
-				<li class="save"><input type="submit" value="Update" class="button primary" /></li>
+				<li class="cancel"><a href="/admin/<?= $itemtype ?>/list" class="button key:esc">Back</a></li>
+				<li class="save"><input type="submit" value="Update" class="button primary key:s" /></li>
 			</ul>
 
 		</form>

@@ -1,4 +1,4 @@
-<div class="scene prices i:prices">
+<div class="scene prices i:scene">
 
 	<h1>PRISLISTE</h1>
 	<p>

@@ -5,8 +5,5 @@
 
 /* NAVIGATION */
 body.news #navigation .news a,
-body.curatedpage #navigation .curatedåage a,
-body.person #navigation .person a,
-body.project #navigation .project a,
 body.tags #navigation .tags a {padding-left: 35px; color: #ffffff;}
 

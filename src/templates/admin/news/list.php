@@ -15,12 +15,12 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "order" => "status DES
 		<li class="new"><a href="/admin/<?= $itemtype ?>/new" class="button primary key:n">Create news post</a></li>
 	</ul>
 
-	<div class="all_items">
+	<div class="all_items i:defaultList taggable filters">
 <?		if($all_items): ?>
-		<ul class="items i:defaultList taggable filters">
+		<ul class="items">
 <?			foreach($all_items as $item): 
 				$item = $IC->getCompleteItem($item["id"]); ?>
-			<li class="item item_id:<?= $item["id"] ?> format:<?= $item["files"] ?> i:personImage">
+			<li class="item item_id:<?= $item["id"] ?> format:<?= $item["files"] ?>">
 				<h3><?= $item["name"] ?></h3>
 
 <?				if($item["tags"]): ?>

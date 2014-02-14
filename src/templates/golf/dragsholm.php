@@ -1,4 +1,4 @@
-<div class="scene golf lane i:golf">
+<div class="scene golf lane i:scene">
 
 	<h1>DGC Dragsholm Golf Club</h1>
 	<p>DGC Dragsholm Golf Club er anlagt smukt for foden af Vejrh&oslash;j-buen, og tilbyder udfordringer for golfspillere p&aring; alle niveauer. Anl&aelig;gget best&aring;r af en 18-hullers mesterskabsbane, en 9-hullers intermediate bane, samt en 9-hullers Par-3 bane.</p>

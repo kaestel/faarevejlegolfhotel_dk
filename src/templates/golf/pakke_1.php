@@ -1,4 +1,4 @@
-<div class="scene golf i:golf">
+<div class="scene golf i:scene">
 
 	<h1>Golfpakke 1</h1>
 	<p>1 x overnatning, 1 x morgenbuffet, 1 dags golf</p>

@@ -28,7 +28,7 @@ input, select, textarea {font-size: 14px;}
 input, textarea {outline: none;}
 
 
-#page {position: relative; width: 1000px;
+#page {position: relative; width: 1000px; overflow: hidden;
 /*	 background: #a63400;*/
  }
 
@@ -61,4 +61,8 @@ dt {display: inline-block; vertical-align: top; text-transform: uppercase; color
 
 /* PHOTO COLUMN */
 #page ul.photos {width: 482px; position: absolute; right: 16px; top: 0; padding: 0 0 0 2px; background: #a63400;}
-#page ul.photos .photo {height: 270px; display: block; padding: 1px 0; background-repeat: no-repeat; background-position: 0 1px;}
+#page ul.photos .photo {height: 270px; display: block; padding: 1px 0; background-repeat: no-repeat; background-position: 0 1px; position: relative;}
+#page ul.photos .photo span {position: absolute; bottom: 0; right: 0; display: block; background: rgba(0, 0, 0, 0.5); color: #ffffff; padding: 7px 20px;}
+
+#page ul.photos .photo.link {cursor: pointer;}
+#page ul.photos .photo.link:hover span {text-decoration: underline;}
