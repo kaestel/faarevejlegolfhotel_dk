@@ -3085,6 +3085,132 @@ u.a.setBgColor = function(node, color) {
 }
 
 
+/*u-image.js*/
+Util.Image = u.i = new function() {
+	this.load = function(node, src) {
+		var image = new Image();
+		image.node = node;
+		u.ac(node, "loading");
+	    u.e.addEvent(image, 'load', u.i._loaded);
+		u.e.addEvent(image, 'error', u.i._error);
+		image.src = src;
+	}
+	this._loaded = function(event) {
+		u.rc(this.node, "loading");
+		if(typeof(this.node.loaded) == "function") {
+			this.node.loaded(event);
+		}
+	}
+	this._error = function(event) {
+		u.rc(this.node, "loading");
+		u.ac(this.node, "error");
+		if(typeof(this.node.loaded) == "function" && typeof(this.node.failed) != "function") {
+			this.node.loaded(event);
+		}
+		else if(typeof(this.node.failed) == "function") {
+			this.node.failed(event);
+		}
+	}
+	this._progress = function(event) {
+		u.bug("progress")
+		if(typeof(this.node.progress) == "function") {
+			this.node.progress(event);
+		}
+	}
+	this._debug = function(event) {
+		u.bug("event:" + event.type);
+		u.xInObject(event);
+	}
+}
+
+
+/*beta-u-preloader.js*/
+u.preloader = function(node, files, options) {
+	var callback, callback_min_delay
+	if(typeof(options) == "object") {
+		var argument;
+		for(argument in options) {
+			switch(argument) {
+				case "callback"				: callback				= options[argument]; break;
+				case "callback_min_delay"	: callback_min_delay	= options[argument]; break;
+			}
+		}
+	}
+	if(!u._preloader_queue) {
+		u._preloader_queue = document.createElement("div");
+		u._preloader_processes = 0;
+		if(u.e && u.e.event_pref == "touch") {
+			u._preloader_max_processes = 1;
+		}
+		else {
+			u._preloader_max_processes = 1;
+		}
+	}
+	if(node && files) {
+		var entry, file;
+		var new_queue = u.ae(u._preloader_queue, "ul");
+		new_queue._callback = callback;
+		new_queue._node = node;
+		new_queue._files = files;
+		new_queue.nodes = new Array();
+		new_queue._start_time = new Date().getTime();
+		for(i = 0; file = files[i]; i++) {
+			entry = u.ae(new_queue, "li", {"class":"waiting"});
+			entry.i = i;
+			entry._queue = new_queue
+			entry._file = file;
+		}
+		u.ac(node, "waiting");
+		if(typeof(node.waiting) == "function") {
+			node.waiting();
+		}
+	}
+	u.queueLoader();
+	return u._preloader_queue;
+}
+u.queueLoader = function() {
+	if(u.qs("li.waiting", u._preloader_queue)) {
+		while(u._preloader_processes < u._preloader_max_processes) {
+			var next = u.qs("li.waiting", u._preloader_queue);
+			if(next) {
+				if(u.hc(next._queue._node, "waiting")) {
+					u.rc(next._queue._node, "waiting");
+					u.ac(next._queue._node, "loading");
+					if(typeof(next._queue._node.loading) == "function") {
+						next._node._queue.loading();
+					}
+				}
+				u._preloader_processes++;
+				u.rc(next, "waiting");
+				u.ac(next, "loading");
+				next.loaded = function(event) {
+					this._image = event.target;
+					this._queue.nodes[this.i] = this;
+					u.rc(this, "loading");
+					u.ac(this, "loaded");
+					u._preloader_processes--;
+					if(!u.qs("li.waiting,li.loading", this._queue)) {
+						u.rc(this._queue._node, "loading");
+						if(typeof(this._queue._callback) == "function") {
+							this._queue._node._callback = this._queue._callback;
+							this._queue._node._callback(this._queue.nodes);
+						}
+						else if(typeof(this._queue._node.loaded) == "function") {
+							this._queue._node.loaded(this._queue.nodes);
+						}
+					}
+					u.queueLoader();
+				}
+				u.i.load(next, next._file);
+			}
+			else {
+				break
+			}
+		}
+	}
+}
+
+
 /*i-page-desktop.js*/
 Util.Objects["page"] = new function() {
 	this.init = function(page) {
@@ -3103,165 +3229,26 @@ u.e.addDOMReadyEvent(u.init)
 /*i-front-desktop.js*/
 Util.Objects["front"] = new function() {
 	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_hotel_1.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
+		scene.photos_priority = [2,22,8,5,12]; 
+		u.createSlideShow(scene, scene.photos_priority);
 	}
 }
 Util.Objects["hotel"] = new function() {
 	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_2.jpg",
-			"/img/desktop/pi_restaurant_3.jpg",
-			"/img/desktop/pi_restaurant_5.jpg",
-			"/img/desktop/pi_rooms_2.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
+		scene.photos_priority = [3,11,13,19]; 
+		u.createSlideShow(scene, scene.photos_priority);
 	}
 }
 Util.Objects["rooms"] = new function() {
 	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_rooms_1.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_rooms_2.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
+		scene.photos_priority = [18,6,19]; 
+		u.createSlideShow(scene, scene.photos_priority);
 	}
 }
-Util.Objects["parties"] = new function() {
+Util.Objects["scene"] = new function() {
 	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_restaurant_5.jpg",
-			"/img/desktop/pi_restaurant_9.jpg",
-			"/img/desktop/pi_restaurant_2.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["conference"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_2.jpg",
-			"/img/desktop/pi_restaurant_3.jpg",
-			"/img/desktop/pi_entrance_3.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_birdview_2.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["restaurant"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_restaurant_1.jpg",
-			"/img/desktop/pi_restaurant_6.jpg",
-			"/img/desktop/pi_restaurant_3.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_restaurant_5.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["prices"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_hotel_1.jpg",
-			"/img/desktop/pi_entrance_3.jpg",
-			"/img/desktop/pi_restaurant_5.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["golf"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_birdview_1.jpg",
-			"/img/desktop/pi_hotel_1.jpg",
-			"/img/desktop/pi_entrance_3.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["golfoffers"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_restaurant_3.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_birdview_1.jpg",
-			"/img/desktop/pi_entrance_3.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["golf4"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_birdview_1.jpg",
-			"/img/desktop/pi_entrance_3.jpg",
-			"/img/desktop/pi_restaurant_3.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["terms"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_birdview_2.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_restaurant_5.jpg",
-			"/img/desktop/pi_restaurant_8.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["local"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_birdview_2.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_restaurant_5.jpg",
-			"/img/desktop/pi_local_1.jpg",
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_rooms_2.jpg",
-			"/img/desktop/pi_hotel_1.jpg",
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_restaurant_8.jpg",
-			"/img/desktop/pi_restaurant_1.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["offers"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_local_1.jpg",
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_restaurant_4.jpg",
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_restaurant_1.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
-	}
-}
-Util.Objects["contact"] = new function() {
-	this.init = function(scene) {
-		scene.photo_sequence = [
-			"/img/desktop/pi_entrance_1.jpg",
-			"/img/desktop/pi_hotel_2.jpg",
-			"/img/desktop/pi_local_2.jpg",
-			"/img/desktop/pi_restaurant_1.jpg"
-		];
-		u.createPhotoList(scene, scene.photo_sequence);
+		scene.photos_priority = false; 
+		u.createSlideShow(scene, scene.photos_priority);
 	}
 }
 Util.Objects["openhouse"] = new function() {
@@ -3279,6 +3266,76 @@ Util.Objects["openhouse"] = new function() {
 		u.createPhotoList(scene, scene.photo_sequence);
 	}
 }
+u.createSlideShow = function(scene, priority) {
+	if(page.offsetHeight < u.browserH()) {
+		u.as(page, "height", u.browserH()+"px");
+	}
+	var photos = JSON.parse(JSON.stringify(u.photos));
+	scene.slideshow = u.ae(page, "ul", {"class":"photos"});
+	var i, object, li;
+	if(priority) {
+		for(i = 0; object = photos[priority[i]]; i++) {
+			li = u.ae(scene.slideshow, "li", {"class":"photo", "html":"<span>"+object.text+"</span>"});
+			li.object = object;
+			li.loaded = function(queue) {
+				this.ready = true;
+				u.as(this, "backgroundImage", "url("+queue[0]._image.src+")");
+			}
+			u.preloader(li, [object.image]);
+			if(object.link) {
+				u.ce(li);
+				u.ac(li, "link");
+				li.clicked = function() {
+					location.href = this.object.link;
+				}
+			}
+		}
+		priority.sort(function(a,b) {return a - b;});
+		for(i = 0; index = priority[i]; i++) {
+			photos.splice(index, 1);
+		}
+	}
+	while(photos.length) {
+		object = photos.splice(u.random(0, photos.length-1), 1)[0];
+		li = u.ae(scene.slideshow, "li", {"class":"photo", "html":"<span>"+object.text+"</span>"});
+		li.object = object;
+		li.loaded = function(queue) {
+			this.ready = true;
+			u.as(this, "backgroundImage", "url("+queue[0]._image.src+")");
+		}
+		if(object.link) {
+			u.ce(li);
+			u.ac(li, "link");
+			li.clicked = function() {
+				location.href = this.object.link;
+			}
+		}
+		if(li.offsetTop - li.offsetHeight < page.offsetHeight) {
+			u.preloader(li, [object.image]);
+		}
+		else {
+			break;
+		}
+	}
+	scene.slideshow.nodes = u.qsa("li", scene.slideshow);
+	scene.slider = function() {
+		this.slideshow.transitioned = function() {
+			u.a.transition(this, "none");
+			u.ae(this, this.firstChild);
+			u.a.translate(this, 0, 0);
+			var i, li;
+			for(i = 0; li = this.nodes[i]; i++) {
+				if(!li.ready && li.offsetTop - li.offsetHeight < page.offsetHeight) {
+					u.preloader(li, [li.object.image]);
+				}
+			}
+		}
+		u.a.transition(this.slideshow, "all 0.7s ease-in-out");
+		u.a.translate(this.slideshow, 0, -this.slideshow.firstChild.offsetHeight);
+		u.t.setTimer(this, this.slider, 4000);
+	}
+	u.t.setTimer(scene, scene.slider, 4000);
+}
 u.createPhotoList = function(scene, photo_list) {
 	scene.photo_list = u.ae(page, "ul", {"class":"photos"});
 	var i, li;
@@ -3288,6 +3345,115 @@ u.createPhotoList = function(scene, photo_list) {
 	}
 	u.as(page, "height", scene.photo_list.offsetHeight+"px");
 }
+
+
+/*u-photos.js*/
+u.photos = [
+	{
+		"image":"/img/slideshow/pi_0_birdview_1.jpg",
+		"text":"Fra Fårevejle til Sejerøbugten"
+	},
+	{
+		"image":"/img/slideshow/pi_1_birdview_2.jpg",
+		"text":"Fårevejle Kirkeby"
+	},
+	{
+		"image":"/img/slideshow/pi_2_entrance_1.jpg",
+		"text":"Fårevejle Golf Hotel",
+		"link":"/hotellet"
+	},
+	{
+		"image":"/img/slideshow/pi_3_entrance_2.jpg",
+		"text":"Fårevejle Golf Hotel",
+		"link":"/hotellet"
+	},
+	{
+		"image":"/img/slideshow/pi_4_entrance_3.jpg",
+		"text":"Fårevejle Golf Hotel",
+		"link":"/hotellet"
+	},
+	{
+		"image":"/img/slideshow/pi_5_hotel_1.jpg",
+		"text":"Receptionen"
+	},
+	{
+		"image":"/img/slideshow/pi_6_hotel_2.jpg",
+		"text":"Familieværelser med terrasser",
+		"link":"/hotellet/vaerelser"
+	},
+	{
+		"image":"/img/slideshow/pi_7_local_1.jpg",
+		"text":"Cykeltur i bjergene",
+		"link":"/hotellet/lokalomraadet"
+	},
+	{
+		"image":"/img/slideshow/pi_8_local_2.jpg",
+		"text":"Fårevejle Kirke"
+	},
+	{
+		"image":"/img/slideshow/pi_9_restaurant_1.jpg",
+		"text":"Restauranten",
+		"link":"/hotellet/restaurant"
+	},
+	{
+		"image":"/img/slideshow/pi_10_restaurant_2.jpg",
+		"text":"Forret"
+	},
+	{
+		"image":"/img/slideshow/pi_11_restaurant_3.jpg",
+		"text":"Morgenmad på Fårevejle Golf Hotel"
+	},
+	{
+		"image":"/img/slideshow/pi_12_restaurant_4.jpg",
+		"text":"Klar til servering",
+		"link":"/hotellet/restaurant"
+	},
+	{
+		"image":"/img/slideshow/pi_13_restaurant_5.jpg",
+		"text":"Restauranten",
+		"link":"/hotellet/restaurant"
+	},
+	{
+		"image":"/img/slideshow/pi_14_restaurant_6.jpg",
+		"text":"Lokale råvarer"
+	},
+	{
+		"image":"/img/slideshow/pi_15_restaurant_7.jpg",
+		"text":"Morgenbuffet"
+	},
+	{
+		"image":"/img/slideshow/pi_16_restaurant_8.jpg",
+		"text":"Morgenbuffet"
+	},
+	{
+		"image":"/img/slideshow/pi_17_restaurant_9.jpg",
+		"text":"Lokale råvarer"
+	},
+	{
+		"image":"/img/slideshow/pi_18_rooms_1.jpg",
+		"text":"Værelse",
+		"link":"/hotellet/vaerelser"
+	},
+	{
+		"image":"/img/slideshow/pi_19_rooms_2.jpg",
+		"text":"Stort familie værelse med terrasse",
+		"link":"/hotellet/vaerelser"
+	},
+	{
+		"image":"/img/slideshow/pi_20_rooms_3.jpg",
+		"text":"Vi holder af detaljerne",
+		"link":"/hotellet/vaerelser"
+	},
+	{
+		"image":"/img/slideshow/pi_21_history_1.jpg",
+		"text":"Fårevejle Centralskole, Opført 1905"
+	},
+	{
+		"image":"/img/slideshow/pi_22_event_1.jpg",
+		"text":"Dragsholmrevyen 2014",
+		"link":"/dragsholmrevyen"
+	}
+];
 
 
 /*ga.js*/
