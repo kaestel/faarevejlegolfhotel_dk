@@ -16,7 +16,7 @@ $page->bodyClass("events");
 if(count($action)) {
 
 	$page->header();
-	$page->template("pages/events.php");
+	$page->template("pages/news.php");
 	$page->footer();
 
 }

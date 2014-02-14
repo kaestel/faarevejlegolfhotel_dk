@@ -17,10 +17,11 @@
 #content .scene.front .actions li {font-size: 12px; color: #a63400;}
 #content .scene.front .actions li a {text-decoration: underline;}
 
-#content .scene.front div.events {position: relative;}
-#content .scene.front div.events .actions {position: absolute; top: 4px; right: 15px; margin: 0; padding: 0 15px 15px;}
-#content .scene.front div.events ul.events > li {border-top: 1px dashed #cccccc; padding: 20px 0 0; display: block;}
-#content .scene.front div.events ul.events > li .actions {position: static; text-align: right; margin-top: -10px;}
+
+#content .scene div.events {position: relative;}
+#content .scene div.events .actions {position: absolute; top: 4px; right: 15px; margin: 0; padding: 0 15px 15px;}
+#content .scene div.events ul.events > li {border-top: 1px dashed #cccccc; padding: 20px 0 0; display: block;}
+#content .scene div.events ul.events > li .actions {position: static; text-align: right; margin-top: -10px;}
 
 
 
