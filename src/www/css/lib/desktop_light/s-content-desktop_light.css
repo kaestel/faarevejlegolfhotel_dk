@@ -5,4 +5,4 @@ h3 {line-height: 1.1em;}
 
 #header .servicenavigation .front a {color: #ffffff;}
 #navigation ul li {*display: inline; line-height: 1.2em;}
-#navigation ul li a {*display: inline;}
+#navigation ul li a {background: green;}
