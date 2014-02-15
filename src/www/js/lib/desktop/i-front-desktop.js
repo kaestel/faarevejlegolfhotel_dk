@@ -126,7 +126,10 @@ u.createSlideShow = function(scene, priority) {
 
 	var photos = JSON.parse(JSON.stringify(u.photos));
 
-	scene.slideshow = u.ae(page, "ul", {"class":"photos"});
+	scene.slideshow_wrapper = u.ae(page, "div", {"class":"photo_wrapper"});
+	scene.slideshow = u.ae(scene.slideshow_wrapper, "ul", {"class":"photos"});
+
+	u.as(scene.slideshow_wrapper, "height", page.offsetHeight+"px", false);
 
 	var i, object, li;
 	if(priority) {
@@ -187,10 +190,10 @@ u.createSlideShow = function(scene, priority) {
 			}
 		}
 
-		if(li.offsetTop - li.offsetHeight < page.offsetHeight) {
-			u.preloader(li, [object.image]);
-		}
-		else {
+		u.preloader(li, [object.image]);
+
+		// only load to fill screen
+		if(li.offsetTop >= page.offsetHeight) {
 			break;
 		}
 	}

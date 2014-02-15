@@ -3,17 +3,17 @@
 	<h1>Dragsholmrevyen 2014</h1>
 
 	<p>
-		Revyen forsøger i 2014 med en ny form, og afholdes på Strandlyst i Holbæk og Rørvig Centret 
+		Revyen forsøger i 2014 med en ny form, og afholdes på Strandlyst og Rørvig Centret 
 		i Odsherred i løbet af sommeren 2014.
 	</p>
 
 	<p>
-		Selvom revyen ikke foregår på hotellet i år tilbyder vi i år:
+		Selvom revyen ikke foregår på hotellet i år tilbyder vi alligevel:
 	</p>
 	<ul>
-		<li>Overnatning</li>
+		<li>Overnatning på Fårevejle Golf Hotel</li>
 		<li>Revy og buffet på Strandlyst</li>
-		<li>Morgenbuffet</li>
+		<li>Morgenbuffet på Fårevejle Golf Hotel</li>
 	</ul>
 
 	<p class="price">
@@ -26,7 +26,6 @@
 	<p class="note">
 		Middag kan indtages på Fårevejle Golf Hotel.<br />
 		Natmad kan bestilles.
-		Samme tilbud gælder for Rørvigcentret - dog uden mulighed for transport.
 	</p>
 
 	<hr />

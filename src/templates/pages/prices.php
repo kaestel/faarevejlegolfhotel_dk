@@ -1,6 +1,6 @@
 <div class="scene prices i:scene">
 
-	<h1>PRISLISTE</h1>
+	<h1>Prisliste</h1>
 	<p>
 		17 store velindrettede v&aelig;relser, 4 familiev&aelig;relser med terrasse samt 1 suite med Jacuzzi.
 		Alle med bad, toilet, tv og hurtig internetadgang.
@@ -35,7 +35,7 @@
 	</tr>
 	<tr class="odd">
 		<td class="item">H&aring;ndv&aelig;rkerpakke (1 person)</td>
-		<td colspan="2"><a href="/tilbud">Se håndværkertilbud</a></td>
+		<td colspan="2"><a href="/tilbud#businessstay">Se håndværkertilbud</a></td>
 	</tr>
 	</table>
 

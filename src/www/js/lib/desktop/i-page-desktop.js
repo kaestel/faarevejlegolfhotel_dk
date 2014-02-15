@@ -19,6 +19,20 @@ Util.Objects["page"] = new function() {
 		page.fN = u.qs("#footer", page);
 
 
+		// global resize handler 
+		page.resized = function() {
+//			u.bug("page resized: " + u.browserW()+"x"+u.browserH());
+
+			if(u.qs(".photo_wrapper")) {
+				u.as(u.qs(".photo_wrapper"), "height", page.offsetHeight+"px", false);
+
+			}
+		}
+
+		// set resize handler
+		u.e.addEvent(window, "resize", page.resized);
+
+
 	}
 }
 

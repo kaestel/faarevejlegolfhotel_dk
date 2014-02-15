@@ -6,87 +6,112 @@
                       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://faarevejlegolfhotel.dk/</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/dragsholm_revyen_2013.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/hotellet</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/sponsorer.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/hotellet/selskaber</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/arrangementer.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/hotellet/restaurant</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://faarevejlegolfhotel.dk/hotellet/vaerelser</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://faarevejlegolfhotel.dk/hotellet/konference</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://faarevejlegolfhotel.dk/dragsholm</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://faarevejlegolfhotel.dk/tilbud</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://faarevejlegolfhotel.dk/nyheder</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>1.0000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/ferieophold.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/priser</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/golf.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/haandvaerkere.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf/odsherred</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/hotellet.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf/holbaek</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/kontakt.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf/dragsholm</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/links.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf/kalundborg</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/lokalomraadet.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf/pakke_golf_revy</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/moedelokaler.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf/pakke_1</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/priser.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf/pakke_2</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/restaurant.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf/pakke_3</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/selskabslokaler.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/golf/pakke_4</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/vaerelserne.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/kontakt</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://faarevejlegolfhotel.dk/video.php</loc>
-  <lastmod>2013-06-11T12:35:01Z</lastmod>
+  <loc>http://faarevejlegolfhotel.dk/hotellet/lokalomraadet</loc>
+  <lastmod>2014-02-15T12:35:01Z</lastmod>
   <priority>0.5000</priority>
  </url>
 </urlset>

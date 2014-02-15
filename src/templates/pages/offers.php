@@ -3,7 +3,7 @@
 	<h1>Kampagner og Tilbud</h1>
 
 
-	<hr />
+	<hr id="businessstay" />
 
 
 	<h2>H&aring;ndv&aelig;rkerovernatning p&aring; Sj&aelig;lland.</h2>
@@ -14,14 +14,14 @@
 	<p>Tilbuddet g&aelig;lder ved flere, og sammenh&aelig;ngende overnatninger.</p>
 	<p>
 		Overnatning i enkeltv&aelig;relse<br />
-		Morgenmad, mellem 06.30 &#8211; 08.00<br />
+		Morgenmad, mellem 06.30 &#8211; 9.15<br />
 		Madpakke<br />
 	</p>
 
 	<p class="price">Ring eller mail for pris.</p>
 
 
-	<hr />
+	<hr id="minivacation" />
 
 
 	<h2>Ferieophold - F&aring;revejle Golf Hotel</h2>

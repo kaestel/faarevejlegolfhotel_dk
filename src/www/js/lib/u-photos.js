@@ -102,5 +102,10 @@ u.photos = [
 		"image":"/img/slideshow/pi_22_event_1.jpg",
 		"text":"Dragsholmrevyen 2014",
 		"link":"/dragsholmrevyen"
+	},
+	{
+		"image":"/img/slideshow/pi_23_local_3.jpg",
+		"text":"Vejrhøj",
+		"link":"/hotellet/lokalomraadet#gravhoeje"
 	}
 ];

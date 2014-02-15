@@ -16,8 +16,8 @@
 		<li><a href="#havne">Havne</a></li>
 		<li><a href="#lystfiskeri">Lystfiskeri</a></li>
 		<li><a href="#oeer">Øer</a></li>
-		<li><a href="#museer">TODO: Museer</a></li>
-		<li><a href="#gravhoeje">TODO: Gravhøje og historiske steder</a></li>
+		<li><a href="#museer">Museer</a></li>
+		<li><a href="#gravhoeje">Gravhøje og historiske steder</a></li>
 	</ul>
 
 
@@ -244,22 +244,96 @@
 
 	<div id="gravhoeje">
 
-		<h2>Gravhøje og historiske steder</h2>
-		<p>TODO: tekst om gravhøje og historiske steder</p>
+		<h2 id="historicplaces">Gravhøje og Danmarks fortid</h2>
 
-		<h3>Vejrhøj</h3>
-		
+		<h3>Vejrhøj, Esterhøj og Maglehøj</h3>
+		<p>
+			Bronzealderen er de store kuplede gravhøjes tid. På selve højderyggen i Odssherred
+			ligger mange markante gravhøje. 
+		</p>
+		<p>
+			Vejrhøj er en af Sjællands største og mest imponerende gravhøje og Sjællands tredje
+			højeste punkt hævet 121 m over havet. Gravhøjen er 8 meter høj og 35 meter i diameter. Fra 
+			Vejrhøj er den mest storslåede udsigt over hele området. 
+		</p>
+		<p>
+			Maglehøj ved Odsherreds næststørste gravhøj med en diameter på 35 meter og en højde på  
+			6 meter. Den er en af Sjællands mest majestætiske gravhøje 91 meter over havet. Fra 
+			højen er der en storslået udsigt over Sejerø Bugten og landskabet. 
+		</p>
+		<p>
+			Vest for Maglehøj ligger 3 mindre gravhøje, og mellem Maglehøj og de 3 gravhøje 
+			ligger langdyssen Kæmpegraven. Anlægget med de 4 gravhøje og langdyssen udgør 
+			tilsyneladende et samlet hele. 
+		</p>
+		<p>
+			Dutterhøje ved Åstofte består af 5 gravhøje, der ligger højt oppe på det vældige
+			randmorænestrøg. 
+		</p>
+		<p>
+			Esterhøj ved Høve ligger 89 meter over havet og er det tredje højeste punkt i Odsherred. 
+			Fra Esterhøj er en vid udsigt til alle sider. På toppen af Esterhøj blev i 1920 rejst en 
+			genforeningssten.
+		</p>
+
 		<h3>Birkehøj Jættestuer</h3>
+		<p>
+			Birkehøj Jættestuer ved Nyrup i Odsherreder, er en af Nordeuropas største og mest usædvanlige 
+			storstensgrave. Et hus, som for 5200 år siden blev bygget til rituelle handlinger og som 
+			udtryk for mageløs fysisk formåen på den tid. 
+		</p>
+		<p>
+			Gravkammeret er næsten to meter højt, hvad der er meget usædvanligt, og det er 11 meter langt. 
+			Birkehøj fremtræder nu, som da den blev bygget i årene 3200 før vor tidsregning med sine 
+			skjulte hemmeligheder, der vel at mærke er kommet frem i forbindelse med 
+			genopbygningsarbejdet i 2003.
+		</p>
+		<p>
+			Det vil være klogt at medbringe en lygte eller stearinlys til et besøg i Birkehøj. Og har man 
+			fået smag for toppen af stenalderens arkitektur, kan man besøge den nærliggende dobbeltjættestue 
+			Troldstuerne i Stenstrup. Det er den eneste dobbeltjættestue i Danmark, hvor de to kamre er 
+			nøjagtigt lige store. 
+		</p>
+		<ul class="links">
+			<li><a href="http://www.visitodsherred.dk/odsherred/oldtidsminder-og-ruiner">http://www.visitodsherred.dk/odsherred/oldtidsminder-og-ruiner</a></li>
+		</ul>
 
-		<h3>Ulkerup Landsby</h3>
 
 		<h3>Ulvsborg Historisk Værksted</h3>
+		<p>
+			Ulvsborg Historisk Værksted er landets eneste oplevelsescenter, der prøver at rekonstruere og 
+			levendegøre brydningstiden mellem vikingetid og middelalder i Danmark. Det omfatter tidsperioden 
+			fra år 1050 til 1250.
+		</p>
+		<p>
+			Centeret består af ca. 24 hektar, i smuk natur, med marker, enge, skove og vandhuller, en 
+			befæstet stormandsgård med tilhørende bygninger og anlæg.
+		</p>
+		<p>
+			På Ulvsborgen vises forskellige facetter af 1100tallets Danmark og livet på landet i en 
+			tid, der var præget af store kulturelle og samfundsmæssige omvæltninger. Besøgende begiver 
+			sig på Ulvsborgen på en lille tidsrejse, 860 år tilbage, til året 1150.
+		</p>
+		<ul class="links">
+			<li><a href="http://www.ulvsborg.dk">http://www.ulvsborg.dk</a></li>
+		</ul>
+ 
 
-		<h3>Maglehøj Gravhøj</h3>
-		
 		<h3>Højby Kirke</h3>
-		
-		
+		<p>
+			Højby Kirke er en af de største og ældste kampstenskirker på Sjælland. Den er bygget 
+			omkring år 1150. Højby Kirke er specielt kendt for sine smukke kalkmalerier 
+			fra slutningen af 1300-tallet, der bl.a viser Olav den Helliges kapsejlads om Norges krone.
+		</p>
+		<p>
+			Når Højby kirke blev så stort anlagt, er det angiveligt fordi, at Odsherred i
+			middelalderen, hvor lammefjorden stadig var fyldt med vand nærmest blev betragtet som en ø.
+			Dengang lå Højby meget centralt på den lange tange der førte hele vejen til Odden.
+		</p>
+		<ul class="links">
+			<li><a href="http://www.hoejby-sj-kirke.dk">http://www.hoejby-sj-kirke.dk</a></li>
+		</ul>
+
 	</div>
 
 	<ul class="actions">

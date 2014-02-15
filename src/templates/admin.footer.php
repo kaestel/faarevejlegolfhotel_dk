@@ -3,7 +3,7 @@
 	<div id="navigation">
 		<ul>
 			<li class="news"><a href="/admin/news/list">News</a></li>
-			<li class="tags"><a href="/admin/tags/list">Tags</a></li>
+			<li class="tags"><a href="/admin/tag/list">Tags</a></li>
 		</ul>
 	</div>
 
