@@ -7,3 +7,6 @@
 #navigation ul li a {*display: inline; *float: left;}
 
 #content .scene.front .actions li {*display: inline;}
+
+#footer .vcard div.email {*display: inline;}
+#footer .vcard div.telephone {*display: inline;}
