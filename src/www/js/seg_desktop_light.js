@@ -4688,6 +4688,23 @@ Util.Image = u.i = new function() {
 }
 
 
+/*u-image-desktop_light.js*/
+u.i.load = function(e, src) {
+	var image = new Image();
+	image.e = e;
+	u.addClass(e, "loading");
+	image.onload = function() {
+		var event = new Object();
+		event.target = this;
+		u.removeClass(this.e, "loading");
+		if(typeof(this.e.loaded) == "function") {
+			this.e.loaded(event);
+		}
+	}
+	image.src = src;
+}
+
+
 /*beta-u-preloader.js*/
 u.preloader = function(node, files, options) {
 	var callback, callback_min_delay
