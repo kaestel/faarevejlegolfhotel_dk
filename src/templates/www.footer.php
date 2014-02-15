@@ -17,30 +17,11 @@
 					<li class="lanes"><a href="/golf/baner">Baner</a></li>
 					<li class="golfoffers"><a href="/golf/tilbud">Pakketilbud</a></li>
 				</ul>
-				<!--ul>
-					<li<?= preg_match("/golf/", $_SERVER["PHP_SELF"]) ? ' class="selected"' : '' ?>><a href="golf.php">Golfpakker</a></li>
-					<li<?= $_SERVER["PHP_SELF"] == "/restaurant_bothwell.php" ? ' class="selected"' : '' ?>><a href="restaurant_bothwell.php">Café og Restaurant Bothwell</a></li>
-				</ul-->
 			</li>
 
 			<li class="prices"><a href="/priser">Priser</a></li>
 			<li class="offers"><a href="/tilbud">Tilbud</a></li-->
 			<li class="contact"><a href="/kontakt">Kontakt os</a></li>
-
-			<!--li class="events"><a href="/arrangementer">Nyheder</a></li-->
-
-			<!--li<?= $_SERVER["PHP_SELF"] == "/ferieophold.php" ? ' class="selected"' : '' ?>><a href="ferieophold.php">Ferieophold</a></li-->
-			<!--li<?= $_SERVER["PHP_SELF"] == "/haandvaerkere.php" ? ' class="selected"' : '' ?>><a href="haandvaerkere.php">H&aring;ndv&aelig;rkertilbud</a></li-->
-			<!--li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen.php" ? ' class="selected"' : '' ?>>
-				<a href="dragsholm_revyen.php">Dragsholmrevyen</a>
-				<ul>
-					<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen_2014.php" ? ' class="selected"' : '' ?>><a href="dragsholm_revyen_2014.php">Dragsholmrevyen 2014</a></li>
-					<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen_2013.php" ? ' class="selected"' : '' ?>><a href="dragsholm_revyen_2013.php">Dragsholmrevyen 2013</a></li>
-					<li<?= $_SERVER["PHP_SELF"] == "/dragsholm_revyen_2012.php" ? ' class="selected"' : '' ?>><a href="dragsholm_revyen_2012.php">Dragsholmrevyen 2012</a></li>
-				</ul>
-			</li-->
-			<!--li<?= $_SERVER["PHP_SELF"] == "/lokalomraadet.php" ? ' class="selected"' : '' ?> class="nomobile"><a href="lokalomraadet.php">Lokalomr&aring;det</a></li-->
-			<!--li<?= $_SERVER["PHP_SELF"] == "/links.php" ? ' class="selected"' : '' ?> class="nomobile"><a href="links.php">Links</a></li-->
 		</ul>
 
 	</div>

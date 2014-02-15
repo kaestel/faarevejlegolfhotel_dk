@@ -6,7 +6,7 @@ $IC = new Item();
 $itemtype = "news";
 
 
-$all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1, "limit" => 5));
+$all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1));
 
 ?>
 <div class="scene events i:scene">

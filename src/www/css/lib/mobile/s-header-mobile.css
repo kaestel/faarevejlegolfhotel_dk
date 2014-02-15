@@ -1,0 +1,6 @@
+#header {z-index: 900; background: #a63400; height: 100px;}
+#header .servicenavigation .front {font-size: 18px; color: #ffffff; text-transform: uppercase; padding: 20px 30px 50px;}
+#header .servicenavigation .front span {display: block; font-size: 13px; font-style: italic; padding: 5px 0 0 10px; text-transform: none;}
+
+#header .servicenavigation .contact {display: none;}
+

@@ -1,0 +1,17 @@
+#navigation {z-index: 890; position: relative;}
+#navigation ul {position: relative; background: #ffceb9; padding: 0;}
+#navigation ul li {display: block; font-size: 14px; border-bottom: 1px solid #a63400; }
+#navigation ul li a {display: block; padding: 14px 30px 14px; color: #a63400;}
+
+#navigation ul li a:active {color: #a63400; background: #ffffff;}
+
+#navigation ul li ul {display: none;}
+
+
+#navigation .hotel {display: none;}
+#navigation .golf {display: none;}
+#navigation .offers {display: none;}
+
+
+.prices #navigation .prices > a {background: #ffffff;}
+.contact #navigation .contact > a {background: #ffffff;}

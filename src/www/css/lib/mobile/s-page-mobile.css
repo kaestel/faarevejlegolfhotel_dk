@@ -10,7 +10,7 @@
 }
 
 html {height: 100%;}
-body {background: #ffffff url(/img/desktop/bg_top.png) repeat-x top left; margin: 0 auto; width: 1000px; overflow-y: scroll;}
+body {background: #ffffff; margin: 0;}
 
 
 /* BASE */
@@ -28,7 +28,7 @@ input, select, textarea {font-size: 14px;}
 input, textarea {outline: none;}
 
 
-#page {width: 1000px; overflow: hidden;}
+#page {overflow: hidden;}
 
 a, span {font-size: inherit; font-family: inherit; color: inherit; text-transform: inherit; font-weight: inherit;}
 

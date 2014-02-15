@@ -1,13 +1,18 @@
 <div class="scene contact i:scene">
 
-	<h1>F&aring;revejle Golf Hotel ApS</h1>
-	<p>
-		F&aring;revejle Kirkevej 1<br />
-		Kirkebyen, 4540 F&aring;revejle<br />
-		Telefon: 59 65 42 00<br />
-		Telefax: 59 65 42 11<br />
-		Email: <a href="mailto:email@faarevejlegolfhotel.dk">email@faarevejlegolfhotel.dk</a>
-	</p>
+	<h1>Kontakt os</h1>
+
+	<div class="vcard company" itemscope itemtype="http://schema.org/Organization">
+		<div class="name fn org" itemprop="name">F&aring;revejle Golf Hotel ApS</div>
+		<div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			<div class="street-adress" itemprop="streetAdress">F&aring;revejle Kirkevej 1, Kirkebyen</div>
+			<div><span class="postal-code" itemprop="postalCode">dk-4540</span> <span class="locality" itemprop="addressLocality">F&aring;revejle</span></div>
+			<div class="country-name" itemprop="countryName">Danmark</div>
+			<div class="telephone">Telefon: <span itemprop="telephone">+45 5965 4200</span></div>
+			<div class="fax">Telefax: <span itemprop="fax">+45 5965 4211</span></div>
+			<div class="email"><a itemprop="email" href="mailto:email@faarevejlegolfhotel.dk">email@faarevejlegolfhotel.dk</a></div>
+		</div>
+	</div>
 
 	<h2>Kort</h2>
 	<ul>

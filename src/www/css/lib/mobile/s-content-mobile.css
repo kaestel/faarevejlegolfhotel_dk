@@ -1,4 +1,4 @@
-#content {position: relative; width: 500px; padding: 50px 0 50px; background: #ffffff;}
+#content {position: relative; padding: 50px 0 50px; background: #ffffff;}
 
 #content .scene {position: relative;}
 #content .scene .link {cursor: pointer;}
@@ -49,8 +49,10 @@
 
 /* PRICES */
 #content .scene.prices h2 {padding-top: 20px;}
-#content .scene.prices table {width: 440px; margin: 0 26px; padding: 0; border-spacing: 0; border-collapse: collapse;}
-#content .scene.prices table.prices td {text-align: right; white-space: nowrap; padding: 2px 0 6px 4px; font-size: 13px; vertical-align: top;}
+#content .scene.prices table {margin: 0 26px; padding: 0; border-spacing: 0; border-collapse: collapse;}
+#content .scene.prices table.prices td {text-align: right; white-space: nowrap; vertical-align: top; padding: 2px 0 6px 4px; font-size: 13px; vertical-align: top;}
+#content .scene.prices table.prices td.item {white-space: normal;}
+
 
 #content .scene.prices table.prices td.item,
 #content .scene.prices table.prices td.max {width: 100%; padding-left: 4px; text-align: left;}
@@ -67,7 +69,6 @@
 
 #content .scene.contact .vcard {padding: 0 30px 30px;}
 #content .scene.contact .vcard * {font-size: 13px;}
-
 
 /* REVY */
 #content .scene.revy ul {padding-bottom: 20px;}

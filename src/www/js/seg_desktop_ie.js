@@ -3343,7 +3343,8 @@ u.createSlideShow = function(scene, priority) {
 	u.t.setTimer(scene, scene.slider, 4000);
 }
 u.createPhotoList = function(scene, photo_list) {
-	scene.photo_list = u.ae(page, "ul", {"class":"photos"});
+	scene.photo_list_wrapper = u.ae(page, "div", {"class":"photo_wrapper"});
+	scene.photo_list = u.ae(scene.photo_list_wrapper, "ul", {"class":"photos"});
 	var i, li;
 	for(i = 0; i < photo_list.length; i++) {
 		li = u.ae(scene.photo_list, "li", {"class":"photo"});
