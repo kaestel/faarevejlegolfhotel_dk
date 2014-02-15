@@ -132,10 +132,12 @@ dt {display: inline-block; vertical-align: top; text-transform: uppercase; color
 
 
 /*s-content-desktop_light.css*/
+body {overflow-y: auto;}
+#page {overflow: visible;}
 #header .servicenavigation .front a,
 #header .servicenavigation .front a span {color: #ffffff;}
 #navigation ul li {*display: inline;}
 #navigation ul li a {*display: inline; *float: left;}
 #content .scene.front .actions li {*display: inline;}
 #footer .vcard div.email {*display: inline;}
-#footer .vcard div.telephone {*display: inline;}
+#footer .vcard div.telephone {*display: inline; padding-right: 20px;}
