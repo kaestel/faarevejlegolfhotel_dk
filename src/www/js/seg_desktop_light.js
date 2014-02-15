@@ -4659,6 +4659,12 @@ Util.Objects["page"] = new function() {
 			page.nN = page.insertBefore(page.nN, page.cN);
 		}
 		page.fN = u.qs("#footer", page);
+		page.resized = function() {
+			if(u.qs(".photo_wrapper")) {
+				u.as(u.qs(".photo_wrapper"), "height", page.offsetHeight+"px", false);
+			}
+		}
+		u.e.addEvent(window, "resize", page.resized);
 	}
 }
 u.e.addDOMReadyEvent(u.init)
@@ -4709,7 +4715,9 @@ u.createSlideShow = function(scene, priority) {
 		u.as(page, "height", u.browserH()+"px");
 	}
 	var photos = JSON.parse(JSON.stringify(u.photos));
-	scene.slideshow = u.ae(page, "ul", {"class":"photos"});
+	scene.slideshow_wrapper = u.ae(page, "div", {"class":"photo_wrapper"});
+	scene.slideshow = u.ae(scene.slideshow_wrapper, "ul", {"class":"photos"});
+	u.as(scene.slideshow_wrapper, "height", page.offsetHeight+"px", false);
 	var i, object, li;
 	if(priority) {
 		for(i = 0; object = photos[priority[i]]; i++) {
@@ -4748,10 +4756,8 @@ u.createSlideShow = function(scene, priority) {
 				location.href = this.object.link;
 			}
 		}
-		if(li.offsetTop - li.offsetHeight < page.offsetHeight) {
-			u.preloader(li, [object.image]);
-		}
-		else {
+		u.preloader(li, [object.image]);
+		if(li.offsetTop >= page.offsetHeight) {
 			break;
 		}
 	}
