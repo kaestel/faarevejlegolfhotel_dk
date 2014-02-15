@@ -155,11 +155,8 @@ dt {display: inline-block; vertical-align: top; text-transform: uppercase; color
 
 
 /*s-content-desktop_light.css*/
-h1 {line-height: 1.1em;}
-h2 {line-height: 1.1em;}
-h3 {line-height: 1.1em;}
 #header .servicenavigation .front a,
 #header .servicenavigation .front a span {color: #ffffff;}
-#navigation ul {display: block; height: 35px;}
 #navigation ul li {*display: inline;}
-#navigation ul li a {*display: inline;}
+#navigation ul li a {*display: inline; *float: left;}
+#content .scene.front .actions li {*display: inline;}
