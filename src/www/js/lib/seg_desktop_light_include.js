@@ -4,8 +4,8 @@ document.write('<script type="text/javascript" src="/js/manipulator/src/u-image-
 
 document.write('<script type="text/javascript" src="/js/manipulator/src/beta-u-preloader.js"></script>');
 
-document.write('<script type="text/javascript" src="/js/lib/desktop/i-page-desktop.js"></script>');
-document.write('<script type="text/javascript" src="/js/lib/desktop/i-front-desktop.js"></script>');
+document.write('<script type="text/javascript" src="/js/lib/desktop_light/i-page-desktop_light.js"></script>');
+document.write('<script type="text/javascript" src="/js/lib/desktop_light/i-front-desktop_light.js"></script>');
 
 document.write('<script type="text/javascript" src="/js/lib/u-photos.js"></script>');
 

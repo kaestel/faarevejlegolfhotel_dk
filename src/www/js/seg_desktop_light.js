@@ -4792,7 +4792,7 @@ u.queueLoader = function() {
 }
 
 
-/*i-page-desktop.js*/
+/*i-page-desktop_light.js*/
 Util.Objects["page"] = new function() {
 	this.init = function(page) {
 		page.hN = u.qs("#header", page);
@@ -4813,7 +4813,7 @@ Util.Objects["page"] = new function() {
 u.e.addDOMReadyEvent(u.init)
 
 
-/*i-front-desktop.js*/
+/*i-front-desktop_light.js*/
 Util.Objects["front"] = new function() {
 	this.init = function(scene) {
 		scene.photos_priority = [2,22,8,5,12]; 
@@ -4905,23 +4905,7 @@ u.createSlideShow = function(scene, priority) {
 		}
 	}
 	scene.slideshow.nodes = u.qsa("li", scene.slideshow);
-	scene.slider = function() {
-		this.slideshow.transitioned = function() {
-			u.a.transition(this, "none");
-			u.ae(this, this.firstChild);
-			u.a.translate(this, 0, 0);
-			var i, li;
-			for(i = 0; li = this.nodes[i]; i++) {
-				if(!li.ready && li.offsetTop - li.offsetHeight < page.offsetHeight) {
-					u.preloader(li, [li.object.image]);
-				}
-			}
-		}
-		u.a.transition(this.slideshow, "all 0.7s ease-in-out");
-		u.a.translate(this.slideshow, 0, -this.slideshow.firstChild.offsetHeight);
-		u.t.setTimer(this, this.slider, 4000);
-	}
-	u.t.setTimer(scene, scene.slider, 4000);
+	// 
 }
 u.createPhotoList = function(scene, photo_list) {
 	scene.photo_list_wrapper = u.ae(page, "div", {"class":"photo_wrapper"});
