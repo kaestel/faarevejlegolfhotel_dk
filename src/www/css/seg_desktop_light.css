@@ -43,29 +43,6 @@ dt {display: inline-block; vertical-align: top; text-transform: uppercase; color
 #page ul.photos .photo.link:hover span {text-decoration: underline;}
 
 
-/*s-fonts-desktop_light.css*/
-@font-face {
-	font-family: 'OpenSans';
-	src: url('/janitor/fonts/opensans-regular-webfont.eot');
-	src: url('/janitor/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('/janitor/fonts/opensans-regular-webfont.woff') format('woff'),
-		 url('/janitor/fonts/opensans-regular-webfont.ttf') format('truetype'),
-		 url('/janitor/fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'OpenSans';
-	src: url('/janitor/fonts/opensans-bold-webfont.eot');
-	src: url('/janitor/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('/janitor/fonts/opensans-bold-webfont.woff') format('woff'),
-		 url('/janitor/fonts/opensans-bold-webfont.ttf') format('truetype'),
-		 url('/janitor/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
-	font-weight: bold;
-	font-style: normal;
-}
-
-
 /*s-header-desktop.css*/
 #header {z-index: 900; width: 500px; background: #a63400; height: 138px;}
 #header .servicenavigation .front {font-size: 20px; color: #ffffff; text-transform: uppercase; padding: 20px 30px 50px;}
@@ -160,3 +137,5 @@ dt {display: inline-block; vertical-align: top; text-transform: uppercase; color
 #navigation ul li {*display: inline;}
 #navigation ul li a {*display: inline; *float: left;}
 #content .scene.front .actions li {*display: inline;}
+#footer .vcard div.email {*display: inline;}
+#footer .vcard div.telephone {*display: inline;}
