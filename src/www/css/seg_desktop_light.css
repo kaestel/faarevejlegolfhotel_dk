@@ -141,3 +141,6 @@ body {overflow-y: auto;}
 #content .scene.front .actions li {*display: inline;}
 #footer .vcard div.email {*display: inline;}
 #footer .vcard div.telephone {*display: inline; padding-right: 20px;}
+#footer .vcard div.email a,
+#footer .vcard div.telephone a {color: #ffffff;}
+
