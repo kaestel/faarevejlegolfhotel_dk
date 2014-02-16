@@ -21,16 +21,16 @@
 		lokal &aelig;blemost fra Kjeld Stype Petersen, H&oslash;rve.
 	</p>
 
-	<p>
-		I sommerhalvåret tilbyder vi:
-	</p>
-
 
 	<hr class="dashed" />
 
 
 	<h3>Hovedret</h3>
-	<p>Eksempelvis: TODO: kom med eksempel</p>
+	<p class="note">
+		Eksempelvis Hakkebøf med løg, kartofler og rødbeder fra Lammefjorden eller stegt 
+		flæsk med persillesovs.
+	</p>
+
 	<p class="price">Kun kr. 128,-</p>
 
 
@@ -38,7 +38,13 @@
 
 
 	<h3>Forret og hovedret</h3>
-	<p>Eksempelvis: TODO: kom med eksempel</p>
+	<p class="note">
+		Eksempelvis dampet hvid fisk m. æbler og æblesirup og oksefilet m. årstidens grønt og kartoffel fra 
+		Lammefjorden, svampesauce.<br />
+		I aspargessæsonen kan forret være hvide asparges m. sauce Mousseline og rejer, hovedret 
+		svinemørbrad m. svampe a la creme og selvfølgelig grønne asparges.
+	</p>
+
 	<p class="price">Kun kr. 178,-</p>
 
 

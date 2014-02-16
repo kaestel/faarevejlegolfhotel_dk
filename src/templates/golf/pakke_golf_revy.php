@@ -12,7 +12,7 @@
 		<li>1 x overnatning</li>
 		<li>1 x morgenbuffet</li>
 		<li>1 x revy m. buffet</li>
-		<li>1 x transport til og fra Standlyst</li>
+		<li>1 x transport til og fra Strandlyst</li>
 		<li>1 x greenfee til <a href="/golf/dragsholm">DGC</a></li>
 	</ul>
 

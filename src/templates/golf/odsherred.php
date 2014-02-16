@@ -26,7 +26,7 @@
 	</p>
 	<p>
 		Det var grd. Nicolaisens marker og skove. Da der var meget kort fra tanke til handling, 
-		k&oslash;bte man 2 dage efter, den 2/10-1965 jord-arealet.
+		k&oslash;bte man 2 dage efter, den 2/10-1965, jord-arealet.
 	</p>
 	<p>
 		I 1991 blev banen udvidet til 18 huller.

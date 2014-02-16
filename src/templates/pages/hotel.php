@@ -7,7 +7,7 @@
 	</p>
 	<p>
 		Hotellet ligger på bredden af den tørlagte lammefjord, lige ved siden af den smukke Fårevejle Kirke,
-		hvor Jarlen af Bothwell hviler i kæleren.
+		hvor Jarlen af Bothwell hviler i kælderen.
 	</p>
 	<p>
 		Hotellet har et helt fantastisk gulvtæppe i restauranten - en seværdighed i sig selv, idet hele 
@@ -20,21 +20,22 @@
 		ikke mindst -asparges dyrkes - ligger næsten lige udenfor døren.
 	</p>
 	<p>
-		I Restauranten hænger også et billede tegnet af Kasper Heron Købke, som også er tidligere elev på Fårevejle 
-		Centralskole. &quot;Remember&quot; er navnet på billedet, det med de tusindevis af detaljer, afspejler
+		I Restauranten hænger også et billede tegnet af Kasper Heron Købke, som er tidligere elev på Fårevejle 
+		Centralskole. &quot;Remember&quot; er navnet på billedet, som med tusindevis af detaljer, afspejler
 		hvordan centralskolen så ud i og omkring 1955.
 	</p>
 	<p>
 		Hotellet råder over 22 store velindrettede v&aelig;relser, heraf 4 familiev&aelig;relser 
 		med egen solterasse samt 1 suite med jacuzzi og andre l&aelig;kkerier. Derudover har vi
-		Konference- og M&oslash;de- og selskabslokaler med plads til op til 120 personer.
+		Konference-, m&oslash;de- og selskabslokaler med plads til op til 120 personer. 
+		Ved foredrag og konferencer med stoleopsætning rummer vi 150 personer.
 	</p>
 	<p>
 		Alle v&aelig;relser har tv og der er gratis tr&aring;dl&oslash;st internet på hele hotellet.
 	</p>
 
 	<p>
-		Hotellet ligger i naturskønne Odsherrede der byder på dejlige oplevelser for enhver smag.
+		Hotellet ligger i naturskønne Odsherred der byder på dejlige oplevelser for enhver smag.
 		Læs mere om <a href="/hotellet/lokalomraadet">lokalområdets muligheder</a>.
 	</p>
 
