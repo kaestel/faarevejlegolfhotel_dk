@@ -11,7 +11,7 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1, "limit"
 ?>
 <div class="scene front i:front">
 
-	<h1>Velkommen til F&aring;revejle Golf Hotel</h1>
+	<h1>Velkommen</h1>
 	<p>
 		Fårevejle Golf Hotel er et familiedrevet hotel, der ligger i det naturskønne Odsherred, med kort 
 		afstand til både golf, strand og et af Sjællands højeste punkter, Vejrhøj (121m).

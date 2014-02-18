@@ -20,7 +20,7 @@ input, select, textarea {font-size: 14px;}
 input, textarea {outline: none;}
 #page {width: 1000px; overflow: hidden;}
 a, span {font-size: inherit; font-family: inherit; color: inherit; text-transform: inherit; font-weight: inherit;}
-h1 {padding: 0 30px 20px; font-size: 24px; line-height: 1em;
+h1 {padding: 0 30px 30px; font-size: 28px; line-height: 1em; font-weight: bold;
 }
 h2 {padding: 0 30px 20px; font-size: 20px; line-height: 1em;}
 h3 {padding: 0 30px 10px; font-size: 16px; line-height: 1em;}
@@ -45,7 +45,7 @@ dt {display: inline-block; vertical-align: top; text-transform: uppercase; color
 
 /*s-header-desktop.css*/
 #header {z-index: 900; width: 500px; background: #a63400; height: 138px;}
-#header .servicenavigation .front {font-size: 20px; color: #ffffff; text-transform: uppercase; padding: 20px 30px 50px;}
+#header .servicenavigation .front {font-size: 20px; color: #ffffff; text-transform: uppercase; padding: 20px 15px 50px;}
 #header .servicenavigation .front span {display: block; font-size: 13px; font-style: italic; padding: 5px 0 0 10px; text-transform: none;}
 #header .servicenavigation .contact {display: none;}
 
@@ -96,23 +96,23 @@ dt {display: inline-block; vertical-align: top; text-transform: uppercase; color
 
 /*s-navigation-desktop.css*/
 #navigation {z-index: 890; position: relative; width: 500px; height: 35px;}
-#navigation ul {position: relative; background: #ffceb9; border-bottom: 1px solid #a63400; padding: 0 0 0 15px;}
+#navigation ul {position: relative; background: #ffceb9; border-bottom: 1px solid #a63400; padding: 0; margin-left: 15px;}
 #navigation ul li {display: inline-block; vertical-align: top; font-size: 14px; height: 34px;}
 #navigation ul li a {display: block; padding: 10px 15px 0; height: 24px; color: #a63400;}
 #navigation ul li a:hover {color: #ffffff; background: #a63400;}
-#navigation ul li ul {display: none; width: 485px; background: #ffffff;}
+#navigation ul li ul {display: none; width: 485px; background: #ffffff; margin: 0;}
 #navigation ul li ul li {}
 #navigation ul li ul li a:hover {color: #a63400; background: #ffceb9;}
 .hotel #navigation .hotel > a {color: #ffffff; background: #a63400;}
-.hotel #navigation .hotel ul {display: block; position: absolute; left: 0; top: 35px;}
-.hotel #navigation {height: 69px; border-bottom: 1px solid #a63400;}
+.hotel #navigation .hotel ul {display: block; position: absolute; left: 0; top: 35px; border-bottom: 1px solid #a63400;}
+.hotel #navigation {height: 69px;}
 .rooms #navigation .rooms > a,
 .parties #navigation .parties > a,
 .conference #navigation .conference > a,
 .restaurant #navigation .restaurant > a {background: #ffceb9; color: #a63400;}
 .golf #navigation .golf > a {color: #ffffff; background: #a63400;}
-.golf #navigation .golf ul {display: block; position: absolute; left: 0; top: 35px;}
-.golf #navigation {height: 69px; border-bottom: 1px solid #a63400;}
+.golf #navigation .golf ul {display: block; position: absolute; left: 0; top: 35px; border-bottom: 1px solid #a63400;}
+.golf #navigation {height: 69px;}
 .lanes #navigation .lanes > a,
 .golfoffers #navigation li .golfoffers > a {background: #ffceb9; color: #a63400;}
 .offers #navigation .offers > a {color: #ffffff; background: #a63400;}

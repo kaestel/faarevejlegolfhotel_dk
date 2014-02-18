@@ -1,6 +1,6 @@
 @media all and (max-width: 1000px) {
 	body {width: auto;}
-	#page {width: auto;}
+	#page {width: auto; min-width: 700px; position: relative;}
 	#page div.photo_wrapper {width: 48%;}
 
 	#header {width: 50%;}
@@ -9,7 +9,7 @@
 
 	#navigation ul li {font-size: 12px;}
 	#navigation ul li a {padding: 10px 10px 0;}
-	#navigation ul li ul {width: auto;}
+	#navigation ul li ul {width: 100%;}
 
 	#content {width: 50%;}
 	#content .scene.prices table.prices {width: auto;}

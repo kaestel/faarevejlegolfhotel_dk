@@ -136,7 +136,7 @@ u.createSlideShow = function(scene, priority) {
 
 		for(i = 0; object = photos[priority[i]]; i++) {
 
-			li = u.ae(scene.slideshow, "li", {"class":"photo", "html":"<span>"+object.text+"</span>"});
+			li = u.ae(scene.slideshow, "li", {"class":"photo"});
 			li.object = object;
 			li.loaded = function(queue) {
 
@@ -148,6 +148,7 @@ u.createSlideShow = function(scene, priority) {
 
 
 			if(object.link) {
+				u.ae(li, "span", {"html":object.text});
 				u.ce(li);
 				u.ac(li, "link");
 				li.clicked = function() {
@@ -172,7 +173,7 @@ u.createSlideShow = function(scene, priority) {
 
 		object = photos.splice(u.random(0, photos.length-1), 1)[0];
 
-		li = u.ae(scene.slideshow, "li", {"class":"photo", "html":"<span>"+object.text+"</span>"});
+		li = u.ae(scene.slideshow, "li", {"class":"photo"});
 		li.object = object;
 
 		li.loaded = function(queue) {
@@ -183,6 +184,7 @@ u.createSlideShow = function(scene, priority) {
 		}
 
 		if(object.link) {
+			u.ae(li, "span", {"html":object.text});
 			u.ce(li);
 			u.ac(li, "link");
 			li.clicked = function() {

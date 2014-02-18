@@ -2891,7 +2891,7 @@ u.createSlideShow = function(scene, priority) {
 	var i, object, li;
 	if(priority) {
 		for(i = 0; object = photos[priority[i]]; i++) {
-			li = u.ae(scene.slideshow, "li", {"class":"photo", "html":"<span>"+object.text+"</span>"});
+			li = u.ae(scene.slideshow, "li", {"class":"photo"});
 			li.object = object;
 			li.loaded = function(queue) {
 				this.ready = true;
@@ -2899,6 +2899,7 @@ u.createSlideShow = function(scene, priority) {
 			}
 			u.preloader(li, [object.image]);
 			if(object.link) {
+				u.ae(li, "span", {"html":object.text});
 				u.ce(li);
 				u.ac(li, "link");
 				li.clicked = function() {
@@ -2913,13 +2914,14 @@ u.createSlideShow = function(scene, priority) {
 	}
 	while(photos.length) {
 		object = photos.splice(u.random(0, photos.length-1), 1)[0];
-		li = u.ae(scene.slideshow, "li", {"class":"photo", "html":"<span>"+object.text+"</span>"});
+		li = u.ae(scene.slideshow, "li", {"class":"photo"});
 		li.object = object;
 		li.loaded = function(queue) {
 			this.ready = true;
 			u.as(this, "backgroundImage", "url("+queue[0]._image.src+")");
 		}
 		if(object.link) {
+			u.ae(li, "span", {"html":object.text});
 			u.ce(li);
 			u.ac(li, "link");
 			li.clicked = function() {

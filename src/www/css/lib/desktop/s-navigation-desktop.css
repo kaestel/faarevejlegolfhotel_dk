@@ -1,11 +1,11 @@
 #navigation {z-index: 890; position: relative; width: 500px; height: 35px;}
-#navigation ul {position: relative; background: #ffceb9; border-bottom: 1px solid #a63400; padding: 0 0 0 15px;}
+#navigation ul {position: relative; background: #ffceb9; border-bottom: 1px solid #a63400; padding: 0; margin-left: 15px;}
 #navigation ul li {display: inline-block; vertical-align: top; font-size: 14px; height: 34px;}
 #navigation ul li a {display: block; padding: 10px 15px 0; height: 24px; color: #a63400;}
 
 #navigation ul li a:hover {color: #ffffff; background: #a63400;}
 
-#navigation ul li ul {display: none; width: 485px; background: #ffffff;}
+#navigation ul li ul {display: none; width: 485px; background: #ffffff; margin: 0;}
 #navigation ul li ul li {}
 #navigation ul li ul li a:hover {color: #a63400; background: #ffceb9;}
 
@@ -13,8 +13,8 @@
 
 
 .hotel #navigation .hotel > a {color: #ffffff; background: #a63400;}
-.hotel #navigation .hotel ul {display: block; position: absolute; left: 0; top: 35px;}
-.hotel #navigation {height: 69px; border-bottom: 1px solid #a63400;}
+.hotel #navigation .hotel ul {display: block; position: absolute; left: 0; top: 35px; border-bottom: 1px solid #a63400;}
+.hotel #navigation {height: 69px;}
 
 .rooms #navigation .rooms > a,
 .parties #navigation .parties > a,
@@ -23,8 +23,8 @@
 
 
 .golf #navigation .golf > a {color: #ffffff; background: #a63400;}
-.golf #navigation .golf ul {display: block; position: absolute; left: 0; top: 35px;}
-.golf #navigation {height: 69px; border-bottom: 1px solid #a63400;}
+.golf #navigation .golf ul {display: block; position: absolute; left: 0; top: 35px; border-bottom: 1px solid #a63400;}
+.golf #navigation {height: 69px;}
 
 .lanes #navigation .lanes > a,
 .golfoffers #navigation li .golfoffers > a {background: #ffceb9; color: #a63400;}
