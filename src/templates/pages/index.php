@@ -28,6 +28,10 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1, "limit"
 		<li><a href="/hotellet">Mere om hotellet</a></li>
 	</ul>
 
+	<ul class="associations">
+		<li class="horesta">Horesta</li>
+		<li class="smalldanish">Small Danish Hotels</li>
+	</ul>
 
 	<hr />
 
