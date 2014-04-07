@@ -67,8 +67,9 @@
 
 	<p class="price">Kun kr. 1.095,-</p>
 	<p class="note">
-		Pris for 2 personer i dobbeltværelse.<br />
-		Till&aelig;g for enkeltv&aelig;relse 200,00 kr. pr. nat.
+		Pris pr. person, ved 2 personer i dobbeltværelse.<br />
+		Till&aelig;g for enkeltv&aelig;relse 200,00 kr. pr. nat.<br />
+		Tilkøb jacuzzi kr. 400,- eller værelse m. terrasse kr. 200,-
 	</p>
 
 
