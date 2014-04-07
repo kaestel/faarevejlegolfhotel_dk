@@ -10,7 +10,7 @@
 	<table class="prices">
 	<tr> 
 		<td class="item">Enkeltv&aelig;relse (1 person)</td>
-		<td>665,00 kr.</td>
+		<td>595,00 kr.</td>
 		<td>pr. d&oslash;gn</td>
 	</tr>
 	<tr class="odd">
