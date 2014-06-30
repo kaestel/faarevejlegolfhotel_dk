@@ -1,10 +1,9 @@
 <?php
 	
-$action = $this->actions();
+global $action;
 
 $IC = new Item();
 $itemtype = "news";
-
 
 $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1));
 
@@ -17,7 +16,7 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1));
 
 		<ul class="events">
 <? 		foreach($all_items as $item): 
-			$item = $IC->getCompleteItem($item["id"]); ?>
+			$item = $IC->extendItem($item); ?>
 
 			<li>
 				<h3><?= $item["name"] ?></h3>

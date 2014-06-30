@@ -13,7 +13,7 @@ $page->pageTitle("Kampagne tilbud");
 $page->bodyClass("offers");
 
 // list
-if(count($action)) {
+if(!count($action)) {
 
 	$page->header();
 	$page->template("pages/offers.php");

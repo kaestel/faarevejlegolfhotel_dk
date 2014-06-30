@@ -13,7 +13,7 @@ $page->pageTitle("Arrangementer på Fårevejle Golf Hotel");
 $page->bodyClass("events");
 
 // list
-if(count($action)) {
+if(!count($action)) {
 
 	$page->header();
 	$page->template("pages/news.php");

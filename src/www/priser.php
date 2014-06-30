@@ -13,7 +13,7 @@ $page->pageTitle("Priser");
 $page->bodyClass("prices");
 
 // list
-if(count($action)) {
+if(!count($action)) {
 
 	$page->header();
 	$page->template("pages/prices.php");

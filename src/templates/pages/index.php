@@ -45,17 +45,17 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1, "limit"
 
 		<ul class="events">
 <? 		foreach($all_items as $item): 
-			$item = $IC->getCompleteItem($item["id"]); ?>
+			$item = $IC->extendItem($item); ?>
 			<li>
 				<h3><?= $item["name"] ?></h3>
 				<p><?= nl2br($item["short_description"]) ?></p>
-<? 				if($item["link"]): ?>
-				<ul class="actions">
-					<li class="readmore"><a href="<?= $item["link"] ?>"<?= preg_match("/^http/", $item["link"]) ? ' target="_blank"' : "" ?>><?= $item["link_text"] ? $item["link_text"] : "L&aelig;s mere" ?></a></li>
-				</ul>
-<?				elseif($item["long_description"]): ?>
+<?				if($item["long_description"]): ?>
 				<ul class="actions">
 					<li class="readmore"><a href="/nyheder"><?= $item["link_text"] ? $item["link_text"] : "L&aelig;s mere" ?></a></li>
+				</ul>
+<? 				elseif($item["link"]): ?>
+				<ul class="actions">
+					<li class="readmore"><a href="<?= $item["link"] ?>"<?= preg_match("/^http/", $item["link"]) ? ' target="_blank"' : "" ?>><?= $item["link_text"] ? $item["link_text"] : "L&aelig;s mere" ?></a></li>
 				</ul>
 <?				endif; ?>
 			</li>

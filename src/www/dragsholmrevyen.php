@@ -13,7 +13,7 @@ $page->pageTitle("Dragsholmrevyen 2014");
 $page->bodyClass("revy");
 
 // list
-if(count($action)) {
+if(!count($action)) {
 
 	$page->header();
 	$page->template("pages/dragsholmrevyen.php");

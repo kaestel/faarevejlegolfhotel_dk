@@ -13,7 +13,7 @@ $page->pageTitle("Betingelser og afbestillingsregler");
 $page->bodyClass("terms");
 
 // list
-if(count($action)) {
+if(!count($action)) {
 
 	$page->header();
 	$page->template("pages/terms.php");

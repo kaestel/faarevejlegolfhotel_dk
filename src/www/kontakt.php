@@ -13,7 +13,7 @@ $page->pageTitle("Kontakt os og find vej");
 $page->bodyClass("contact");
 
 // list
-if(count($action)) {
+if(!count($action)) {
 
 	$page->header();
 	$page->template("pages/contact.php");

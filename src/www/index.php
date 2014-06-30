@@ -12,20 +12,8 @@ $action = $page->actions();
 $page->pageTitle("Også for ikke-golfere");
 $page->bodyClass("front");
 
-// list
-if(count($action)) {
-
-	$page->header();
-	$page->template("pages/index.php");
-	$page->footer();
-
-}
-else {
-
-	$page->header();
-	$page->template("404.php");
-	$page->footer();
-
-}
+$page->header();
+$page->template("pages/index.php");
+$page->footer();
 
 ?>

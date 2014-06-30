@@ -13,7 +13,7 @@ $page->pageTitle("Åbent hus");
 $page->bodyClass("openhouse");
 
 // list
-if(count($action)) {
+if(!count($action)) {
 
 	$page->header();
 	$page->template("pages/openhouse.php");
