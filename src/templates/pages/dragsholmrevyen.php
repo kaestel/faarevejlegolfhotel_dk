@@ -19,10 +19,10 @@
 	<p class="price">
 		Kr. 750,- pr. person i dobbeltværelse.
 	</p>
-	<p>
+	<!--p>
 		Mulighed for transport i limousine til og fra Strandlyst. Prisen for transport afhænger af antal 
 		personer i bilen - jo flere des billigere.
-	</p>
+	</p-->
 	<p class="note">
 		Middag kan indtages på Fårevejle Golf Hotel.<br />
 		Natmad kan bestilles.
