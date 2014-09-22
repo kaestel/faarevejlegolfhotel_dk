@@ -3,10 +3,7 @@
 	<h1>Hotellets restaurant</h1>
 
 	<p>
-		Vi har i vinterhalvåret besluttet at lukke aften Restauranten, undtagen for 
-		forudbestillinger - dvs efter behov. Miniferie, golfophold, weekendophold, 
-		fester, kurser/konferencer, er ikke berørt, ligesom morgenmad og madpakker 
-		altid vil blive serveret.
+		Hotellets aften restaurant har åbent efter behov - dvs. forudbestilling er nødvendig.
 	</p>
 	<p>
 		De dage, hvor der iøvrigt er arrangementer vil vi også rigtig gerne servere mad for dig, 
@@ -37,7 +34,7 @@
 	<hr class="dashed" />
 
 
-	<h3>Forret og hovedret</h3>
+	<h3>Forret og hovedret (kokkens valg)</h3>
 	<p class="note">
 		Eksempelvis dampet hvid fisk m. æbler og æblesirup og oksefilet m. årstidens grønt og kartoffel fra 
 		Lammefjorden, svampesauce.<br />
@@ -45,7 +42,7 @@
 		svinemørbrad m. svampe a la creme og selvfølgelig grønne asparges.
 	</p>
 
-	<p class="price">Kun kr. 178,-</p>
+	<p class="price">Kun kr. 189,-</p>
 
 
 	<hr />

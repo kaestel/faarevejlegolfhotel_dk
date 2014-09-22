@@ -3,13 +3,13 @@
 	<h1>Golf tilbud</h1>
 	<p>Golfpakkerne er forslag, venligst kontakt os hvis De har andre &oslash;nsker.</p>
 
-	<hr />
+	<!--hr />
 
 	<h2><a href="/golf/pakke_golf_revy">Revy og Golf</a></h2>
 	<p>
 		1 overnatning, 1 x morgenbuffet, 1 x Revy m. buffet og transport til og fra Standlyst, 1 x greenfee til DGC<br />
 	</p>
-	<p class="price">Kun kr. 1.095,00</p>
+	<p class="price">Kun kr. 1.095,00</p-->
 
 	<hr />
 
