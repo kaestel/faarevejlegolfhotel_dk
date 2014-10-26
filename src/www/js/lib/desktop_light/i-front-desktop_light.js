@@ -140,10 +140,12 @@ u.createSlideShow = function(scene, priority) {
 			li.object = object;
 			li.loaded = function(queue) {
 
+				u.bug("loaded")
 				this.ready = true;
-				u.as(this, "backgroundImage", "url("+queue[0]._image.src+")");
+				u.as(this, "backgroundImage", "url("+queue[0].image.src+")");
 
 			}
+			u.bug("image:" + object.image)
 			u.preloader(li, [object.image]);
 
 
@@ -178,7 +180,7 @@ u.createSlideShow = function(scene, priority) {
 		li.loaded = function(queue) {
 
 			this.ready = true;
-			u.as(this, "backgroundImage", "url("+queue[0]._image.src+")");
+			u.as(this, "backgroundImage", "url("+queue[0].image.src+")");
 
 		}
 
@@ -190,6 +192,7 @@ u.createSlideShow = function(scene, priority) {
 			}
 		}
 
+		u.bug("image:" + object.image)
 		u.preloader(li, [object.image]);
 
 		// only load to fill screen

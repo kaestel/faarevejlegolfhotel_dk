@@ -5109,6 +5109,23 @@ if(String.prototype.substr == undefined || "ABC".substr(-1,1) == "A") {
 }
 
 
+/*u-preloader-desktop_light.js*/
+u.loadImage = function(node, src) {
+	var image = new Image();
+	image.node = node;
+	u.addClass(node, "loading");
+	image.onload = function() {
+		var event = new Object();
+		event.target = this;
+		u.rc(this.node, "loading");
+		if(typeof(this.node.loaded) == "function") {
+			this.node.loaded(event);
+		}
+	}
+	image.src = src;
+}
+
+
 /*i-page-desktop_light.js*/
 Util.Objects["page"] = new function() {
 	this.init = function(page) {
@@ -5184,9 +5201,11 @@ u.createSlideShow = function(scene, priority) {
 			li = u.ae(scene.slideshow, "li", {"class":"photo", "html":"<span>"+object.text+"</span>"});
 			li.object = object;
 			li.loaded = function(queue) {
+				u.bug("loaded")
 				this.ready = true;
-				u.as(this, "backgroundImage", "url("+queue[0]._image.src+")");
+				u.as(this, "backgroundImage", "url("+queue[0].image.src+")");
 			}
+			u.bug("image:" + object.image)
 			u.preloader(li, [object.image]);
 			if(object.link) {
 				u.ce(li);
@@ -5207,7 +5226,7 @@ u.createSlideShow = function(scene, priority) {
 		li.object = object;
 		li.loaded = function(queue) {
 			this.ready = true;
-			u.as(this, "backgroundImage", "url("+queue[0]._image.src+")");
+			u.as(this, "backgroundImage", "url("+queue[0].image.src+")");
 		}
 		if(object.link) {
 			u.ce(li);
@@ -5216,6 +5235,7 @@ u.createSlideShow = function(scene, priority) {
 				location.href = this.object.link;
 			}
 		}
+		u.bug("image:" + object.image)
 		u.preloader(li, [object.image]);
 		if(li.offsetTop >= page.offsetHeight) {
 			break;
