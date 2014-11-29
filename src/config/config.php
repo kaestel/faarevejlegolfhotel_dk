@@ -12,7 +12,7 @@ error_reporting(E_ALL);
 */
 define("SITE_UID", "FGH");
 define("SITE_NAME", "Fårevejle Golf Hotel");
-define("SITE_URL", "faarevejlegolfhotel.dk");
+define("SITE_URL", $_SERVER["SERVER_NAME"]);
 
 /**
 * Optional constants
