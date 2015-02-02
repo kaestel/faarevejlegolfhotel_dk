@@ -35,7 +35,7 @@
 
 		<ul class="associations">
 			<li class="hotesta"><a href="http://www.horesta.dk" target="_blank">Horesta</a></li>
-			<li class="sdh"><a href="http://www.smalldanishhotels.dk/">Small Danish Hotels</a></li>
+			<!--li class="sdh"><a href="http://www.smalldanishhotels.dk/">Small Danish Hotels</a></li-->
 		</ul>
 	</div>
 

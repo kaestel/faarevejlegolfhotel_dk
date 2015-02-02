@@ -30,7 +30,7 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1, "limit"
 
 	<ul class="associations">
 		<li class="horesta">Horesta</li>
-		<li class="smalldanish">Small Danish Hotels</li>
+		<!--li class="smalldanish">Small Danish Hotels</li-->
 	</ul>
 
 	<hr />
