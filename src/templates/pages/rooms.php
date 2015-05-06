@@ -10,6 +10,4 @@
 
 	<p>1 suite med jacuzzi og andre l&aelig;kkerier.</p>
 
-	<p>Mulighed for ryger/ikke-ryger v&aelig;relse.</p>
-
 </div>
