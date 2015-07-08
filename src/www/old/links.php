@@ -13,7 +13,7 @@
 		<p><a href="http://www.holbakgolfklub.dk" target="_blank">Holb&aelig;k Golfklub</a></p>
 		<p><a href="http://www.kalundborg-golf.dk" target="_blank">Kalundborg Golfklub</a></p>
 		<p><a href="http://www.visitodsherred.dk/" target="_blank">Odsherreds Turistbureau</a></p>
-		<p><a href="http://www.pejsegaardenscykler.dk/" target="_blank">Cykeludlejning - Pejseg&aring;rdens Cykler i R&oslash;rvig</a></p>
+		<!--p><a href="http://www.pejsegaardenscykler.dk/" target="_blank">Cykeludlejning - Pejseg&aring;rdens Cykler i R&oslash;rvig</a></p-->
 		<p><a href="http://www.golfruten.dk" target="_blank">Golfruten.dk</a></p>
 		<p><a href="http://www.pottegården.dk" target="_blank">Pottegården - Live musik</a></p>
 

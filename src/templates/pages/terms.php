@@ -24,7 +24,7 @@
 	<hr />
 
 
-	<h2>Ved afbestilling ifm. Dragsholmrevyen:</h2>
+	<!--h2>Ved afbestilling ifm. Dragsholmrevyen:</h2>
 	<p>Afbestilling ikke muligt.</p>
 
 
@@ -38,7 +38,7 @@
 	</p>
 
 
-	<hr />
+	<hr /-->
 
 
 	<p>&lt; <a href="javascript:history.back();">Tilbage</a></p>
