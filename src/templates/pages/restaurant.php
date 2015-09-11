@@ -6,10 +6,12 @@
 		Hotellets aften restaurant har åbent efter behov - dvs. forudbestilling er nødvendig.
 	</p>
 	<p>
-		De dage, hvor der iøvrigt er arrangementer vil vi også rigtig gerne servere mad for dig, 
-		men der skal bestilles forud.
+		De dage, hvor der iøvrigt er arrangementer vil vi også rigtig gerne servere mad for dig.
+		Restauranten har åbent på flg. dage i september: 11., 12., 15., 17., 18., 19., 24. og 25.
 	</p>
-	<p>Ring og hør om køkkenet har åbent.</p>
+	<p>Bestilling er nødvendig.</p>
+	<p>Har du f.eks. et tilgodebevis eller gavekort - så skynd dig at bestille.</p>
+
 
 	<h2>Vi bruger lokale r&aring;varer fra Lammefjorden</h2>
 	<p>
