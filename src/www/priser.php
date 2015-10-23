@@ -12,20 +12,24 @@ $action = $page->actions();
 $page->pageTitle("Priser");
 $page->bodyClass("prices");
 
-// list
-if(!count($action)) {
+$page->header();
+$page->template("pages/index.php");
+$page->footer();
 
-	$page->header();
-	$page->template("pages/prices.php");
-	$page->footer();
-
-}
-else {
-
-	$page->header();
-	$page->template("404.php");
-	$page->footer();
-
-}
+// // list
+// if(!count($action)) {
+//
+// 	$page->header();
+// 	$page->template("pages/prices.php");
+// 	$page->footer();
+//
+// }
+// else {
+//
+// 	$page->header();
+// 	$page->template("404.php");
+// 	$page->footer();
+//
+// }
 
 ?>

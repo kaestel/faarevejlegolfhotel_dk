@@ -12,20 +12,24 @@ $action = $page->actions();
 $page->pageTitle("Åbent hus");
 $page->bodyClass("openhouse");
 
-// list
-if(!count($action)) {
+$page->header();
+$page->template("pages/index.php");
+$page->footer();
 
-	$page->header();
-	$page->template("pages/openhouse.php");
-	$page->footer();
-
-}
-else {
-
-	$page->header();
-	$page->template("404.php");
-	$page->footer();
-
-}
+// // list
+// if(!count($action)) {
+//
+// 	$page->header();
+// 	$page->template("pages/openhouse.php");
+// 	$page->footer();
+//
+// }
+// else {
+//
+// 	$page->header();
+// 	$page->template("404.php");
+// 	$page->footer();
+//
+// }
 
 ?>

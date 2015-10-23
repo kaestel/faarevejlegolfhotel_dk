@@ -1,7 +1,7 @@
 	</div>
 
 	<div id="navigation">
-		<ul>
+		<!--ul>
 			<li class="hotel">
 				<a href="/hotellet">Hotellet</a>
 				<ul>
@@ -20,9 +20,9 @@
 			</li>
 
 			<li class="prices"><a href="/priser">Priser</a></li>
-			<li class="offers"><a href="/tilbud">Tilbud</a></li-->
+			<li class="offers"><a href="/tilbud">Tilbud</a></li>
 			<li class="contact"><a href="/kontakt">Kontakt os</a></li>
-		</ul>
+		</ul-->
 
 	</div>
 

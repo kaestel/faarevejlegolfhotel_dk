@@ -11,7 +11,15 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1, "limit"
 ?>
 <div class="scene front i:front">
 
-	<h1>Velkommen</h1>
+	<h1>Tak til alle gæster og samarbejdspartnere</h1>
+	<p>
+		Efter 11 år er Fårevejle Golf Hotel nu lukket for bestandigt. 
+	</p>
+	<p>
+		Vi takker alle gæster og samarbejdspartnere
+		for de gode minder - de har været frugten af det hårde arbejde.
+	</p>
+	<!--h1>Velkommen</h1>
 	<p>
 		Fårevejle Golf Hotel er et familiedrevet hotel, der ligger i det naturskønne Odsherred, med kort 
 		afstand til både golf, strand og et af Sjællands højeste punkter, Vejrhøj (121m).
@@ -26,14 +34,14 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1, "limit"
 	</p>
 	<ul class="actions">
 		<li><a href="/hotellet">Mere om hotellet</a></li>
-	</ul>
+	</ul-->
 
 	<!--ul class="associations">
 		<li class="horesta">Horesta</li>
 		<li class="smalldanish">Small Danish Hotels</li>
 	</ul-->
 
-	<hr />
+	<!--hr />
 
 
 	<div class="events">
@@ -62,6 +70,6 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1, "limit"
 <? 		endforeach; ?>
 		</ul>
 
-	</div>
+	</div-->
 
 </div>
