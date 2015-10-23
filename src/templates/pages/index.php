@@ -17,7 +17,7 @@ $all_items = $IC->getItems(array("itemtype" => $itemtype, "status" => 1, "limit"
 	</p>
 	<p>
 		Vi takker alle gæster og samarbejdspartnere
-		for de gode minder - de har været frugten af det hårde arbejde.
+		for de gode minder - de er frugten af det hårde arbejde.
 	</p>
 	<!--h1>Velkommen</h1>
 	<p>
